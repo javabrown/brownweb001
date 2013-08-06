@@ -1,0 +1,35 @@
+								<div id="price-list" class='text1'>
+									<h2>Today's Special</h2>
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="klematis_big.htm">
+										  <img class='list-element-img round' src="http://img.giftstoindia24x7.com/ASP_Img/small_img/GTI1653.jpg" alt="Klematis" width="100" height="70" />
+										</a>
+										 <div class="list-element-desc text1">100 Red Roses</div>
+										<div class="list-element-desc price-text"> Rs.3395.00 / $ 65.29 </div>
+										<a href="#" class="button1">Buy Now</a>
+									</div>
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="klematis_big.htm">
+										  <img class='list-element-img round' src="http://c.dryicons.com/files/graphics_previews/rose_red.jpg" alt="Klematis" width="100" height="70" />
+										</a>
+										 <div class="list-element-desc text1">100 Red Roses</div>
+										<div class="list-element-desc price-text"> Rs.3395.00 / $ 65.29 </div>
+										<a href="#" class="button1">Buy Now</a>
+									</div>
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="klematis_big.htm">
+										  <img class='list-element-img round' src="http://c.dryicons.com/files/graphics_previews/rose_red.jpg" alt="Klematis" width="100" height="70" />
+										</a>
+										 <div class="list-element-desc text1">100 Red Roses</div>
+										<div class="list-element-desc price-text"> Rs.3395.00 / $ 65.29 </div>
+										<a href="#" class="button1">Buy Now</a>
+									</div>			
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="klematis_big.htm">
+										  <img class='list-element-img round' src="http://c.dryicons.com/files/graphics_previews/rose_red.jpg" alt="Klematis" width="100" height="70" />
+										</a>
+										 <div class="list-element-desc text1">100 Red Roses</div>
+										<div class="list-element-desc price-text"> Rs.3395.00 / $ 65.29 </div>
+										<a href="#" class="button1">Buy Now</a>
+									</div>		
+								</div>

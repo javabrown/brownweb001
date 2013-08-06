@@ -1,0 +1,77 @@
+
+
+<div id="wrapper1">
+<style>
+		 
+		#header1 {
+			height: 10px;
+			background: #FFE680;
+		}
+
+		 
+		#middle1 {
+		    width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		#middle1:after {
+			content: '.';
+			display: block;
+			clear: both;
+			visibility: hidden;
+			height: 0;
+		}
+		#container1 {
+			 width: 100%;
+			float: left;
+			overflow: hidden;
+		}
+		#content1 {
+			padding: 0 270px 0 0;
+		}
+		 
+		#sideRight1 {
+			float: right;
+			margin-right: -3px;
+			width: 250px;
+			margin-left: -250px;
+			position: relative;
+			 
+		}
+		 
+		#footer1 {
+		 
+			background: #BFF08E;
+		}
+</style>
+	<div id="header1">
+		 
+	</div><!-- #header-->
+
+	<div id="middle1">
+
+		<div id="container1">
+			<div id="content1">
+
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<div class="sidebar1" id="sideRight1">
+             <p>
+				<form action="phps/login.php" method="post">
+				<label>UserName :</label>
+				<input type="text" name="username"/><br />
+				<label>Password :</label>
+				<input type="password" name="password"/><br/>
+				<input type="submit" value=" Submit "/><br />
+				</form>
+			 </p>
+		</div><!-- .sidebar#sideRight -->
+
+	</div><!-- #middle-->
+
+	<div id="footer1">
+		 
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->

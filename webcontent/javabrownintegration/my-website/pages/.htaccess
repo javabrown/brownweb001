@@ -1,0 +1,7 @@
+# Begin default subdomain redirect #
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^javabrown.com
+RewriteRule ^(.*)$ http://www.javabrown.com/$1 [R=permanent,L]
+
+
+# End default subdomain redirect #

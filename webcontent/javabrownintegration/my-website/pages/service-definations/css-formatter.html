@@ -1,0 +1,62 @@
+<!-- CSS formatter service defination -->
+ 
+<div class="alert alert-info well span11">
+    <button class="close" data-dismiss="alert" type="button" onclick="$(this).parent().hide();">×</button>
+    <p id="about_me">DEFINE IT</p> 
+</div>
+    
+<div id="request-div span12">
+	<textarea class="field span11" rows="15" placeholder="Enter your CSS here to format." id="request_text_area"></textarea>
+</div>
+
+<div id="row well form-inline span11" class="well">
+	<a class="btn" onclick="performFormatting();">Submit</a>
+</div>
+
+<div class="divider" id="response_area_scroll_down"></div>
+
+<div class="brown-hide" id="result_div">
+	<br/>
+	<strong><b>Response:</b></strong>
+	<div class="well" style="height:auto;">
+		<textarea readonly class="field span11 page-output well" contenteditable="true" rows="15" placeholder="Enter a request" id="result_text_area0"></textarea>
+
+        <div id="row well form-inline span11" class="well">
+	       <a class="btn btn-inverse" onclick="closeAndScrollUp();">Close</a>
+        </div>	
+	</div>
+	
+  
+</div>
+
+ 
+<script type='text/javascript' src='js/rkbeautify.js'></script>
+<script>      
+		                  
+	function performFormatting()
+	{
+	          var request_val = $("#request_text_area").val();
+	          var formatted_css = rkbeautify.css(request_val);
+	           
+	          $("#result_div").removeClass("brown-hide");
+	          $("#result_text_area0").val(formatted_css);
+	          
+	         scrolldown();
+	}
+	
+	function scrolldown(){
+		$('html,body').animate({
+			scrollTop: $("#response_area_scroll_down").offset().top -100
+		}, 500);
+	}
+	
+	function closeAndScrollUp(){
+	    $("#result_div").addClass("brown-hide");
+		$('html,body').animate({
+			scrollTop: $("body").offset().top
+		}, 500);
+	}
+	
+	var aboutme_text = "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. CSS is designed primarily to enable the separation of document content (written in HTML or a similar markup language) from document presentation, including elements such as the layout, colors, and fonts.";
+	$("#about_me").html(aboutme_text);
+</script>

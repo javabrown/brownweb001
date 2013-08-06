@@ -1,0 +1,73 @@
+<!-- <br/>
+<div class="clear"></div>
+ <div class="left12 about">
+	 <div class="about_pic"><img src="pages/yasmin/images/baby.jpg" alt="image" title="" /></div>
+	 <div class="about_right">
+		<h2>About Shagufta</h2>
+		<p>Lorem ipsum  dolor sit amet, 
+		   consectetur adi pisi cing elit, sed do eiusmod tempor exercitationem ut 
+		   labore et dolore magna aliqua. Ut enim ad consequatur quis nostrud 
+		   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...<strong><a href="http://famousthemes.com/marriage-wordpress/asdas" class="more_about">read more</a></strong>
+		</p>
+	 </div>
+ </div>
+ <div class="left12 about">
+	 <div class="about_pic"><img src="pages/yasmin/images/rk.jpg" alt="image" title="" /></div>
+	 <div class="about_right">
+		<h2>About Firoz</h2>
+		<p>Ut enim ad consequatur quis nos
+		   trud exercit ation ullamco laboris nisi ut aliquip ex ea commodo 
+		   consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+		   do eiusmod tempor. ...<strong>  class="more_about">read more</a></strong>
+		</p>
+	 </div>
+ </div> -->
+ <br/>		 
+
+ 
+          <center>
+			 <table width="95%" style='padding-left:15px; font-size=12'>
+			    <tr>
+							<td  width="100%">
+								 <br/>  
+								 <div class='inner-content'>
+									   <center> 
+											 <div class="left12 about">
+												 <div class="about_pic"><img class='shadow6' src="pages/yasmin/images/baby.jpg" alt="image" title="" /></div>
+												 <div class="about_right">
+													<h2>About Shagufta</h2>
+													<p>Lorem ipsum  dolor sit amet, 
+													   consectetur adi pisi cing elit, sed do eiusmod tempor exercitationem ut 
+													   labore et dolore magna aliqua. Ut enim ad consequatur quis nostrud 
+													   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...<strong><a href="http://famousthemes.com/marriage-wordpress/asdas" class="more_about">read more</a></strong>
+													</p>
+												 </div>
+											 </div>	
+									   </center>
+								 </div>
+							</td>
+							<td  width="100%">
+								 <br/>  
+								 <div class='inner-content'>
+									   <center> 
+											 <div class="left12 about">
+												 <div class="about_pic"><img class='shadow6' src="pages/yasmin/images/rk.jpg" alt="image" title="" /></div>
+												 <div class="about_right">
+													<h2>About Firoz</h2>
+													<p>Ut enim ad consequatur quis nos
+													   trud exercit ation ullamco laboris nisi ut aliquip ex ea commodo 
+													   consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+													   do eiusmod tempor. ...<strong><a href="http://famousthemes.com/marriage-wordpress/asd" class="more_about">read more</a></strong>
+													</p>
+												 </div>
+											 </div>
+									   </center>
+								 </div>
+							</td>
+                </tr>					
+			 </table>
+		 </center>
+		 
+
+ 
+ 

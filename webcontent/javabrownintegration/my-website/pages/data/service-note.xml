@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contents>   
+	<content>
+ 	  <name>Serving Every Occasion</name>
+	  <width>130</width>
+	  <height>152</height>	  
+	  
+	  <images>
+	      <image>
+		     <image-name>Raja Khan</image-name>
+		     <image-url>http://rusticfood.com/images/planning.jpg</image-url>
+			 <status>ACTIVE</status>
+	      </image>
+	      <image>
+		     <image-name>Raja Khan-1</image-name>
+		     <image-url>http://www.crystalxp.net/galerie/img/img-images-fractal-cloud-cebeul-8721.jpg</image-url>
+			 <status>INACTIVE</status>
+	      </image>
+	      <image>
+		     <image-name>Raja Khan-2</image-name>
+		     <image-url>http://static.dezeen.com/uploads/2007/01/classical-arts-museum-image-4.jpg</image-url>
+			 <status>INACTIVE</status>
+	      </image>		  
+	  </images>
+	  
+	  <text>Perfect Party Events and Catering provides catering to your chosen location. Our courteous staff will assist you in organizing your event with our setup and delivery.  Pickup orders for food service and rental items are also available.  Speak to a representative for details.</text>
+	</content>
+ </contents>

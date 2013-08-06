@@ -1,0 +1,62 @@
+<!-- MD-5 Encription service defination -->
+ 
+<div class="alert alert-info well span11">
+    <button class="close" data-dismiss="alert" type="button" onclick="$(this).parent().hide();">×</button>
+    <p id="about_me">DEFINE IT</p> 
+</div>
+    
+<div id="request-div span12">
+	<textarea class="field span11" rows="15" placeholder="Enter a request" id="request_text_area"></textarea>
+</div>
+
+<div id="row well form-inline span11" class="well">
+	<a class="btn" onclick="performMd5Encode();">Submit</a>
+</div>
+
+<div class="divider" id="response_area_scroll_down"></div>
+
+<div class="brown-hide" id="result_div">
+	<br/>
+	<strong><b>Response:</b></strong>
+	<div class="well" style="height:auto;">
+		<textarea readonly class="field span11 page-output well" contenteditable="true" rows="15" placeholder="Enter a request" id="result_text_area0"></textarea>
+
+        <div id="row well form-inline span11" class="well">
+	       <a class="btn btn-inverse" onclick="closeAndScrollUp();">Close</a>
+        </div>	
+	</div>
+	
+  
+</div>
+
+ 
+<script src="js/crypto-js/sha1.js"></script>
+<script>
+	function performMd5Encode()
+	{
+			  
+	          var request_val = $("#request_text_area").val();
+	          var hash = CryptoJS.SHA1(request_val);
+
+	          $("#result_div").removeClass("brown-hide");
+	          $("#result_text_area0").val(hash);
+	          
+	         scrolldown();
+	}
+	
+	function scrolldown(){
+		$('html,body').animate({
+			scrollTop: $("#response_area_scroll_down").offset().top -100
+		}, 500);
+	}
+	
+	function closeAndScrollUp(){
+	    $("#result_div").addClass("brown-hide");
+		$('html,body').animate({
+			scrollTop: $("body").offset().top
+		}, 500);
+	}
+	
+	var aboutme_text = "The SHA hash functions were designed by the National Security Agency (NSA). SHA-1 is the most established of the existing SHA hash functions, and it's used in a variety of security applications and protocols. Though, SHA-1's collision resistance has been weakening as new attacks are discovered or improved.";
+	$("#about_me").html(aboutme_text);
+</script>

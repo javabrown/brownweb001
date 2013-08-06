@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Online Text Editor - brownPad - a simple online NotePad</title>
+	<meta name="description" content="BrownPad is a quick and simple online text editor for plain text - JavaBrown.Com"/>
+	<link rel="stylesheet" type="text/css" href="http://codemirror.net/lib/codemirror.css" media="screen, projection, print" />
+	<link rel="stylesheet" type="text/css" href="http://codemirror.net/doc/docs.css" media="screen, projection, print" />
+    <script type="text/javascript" src="http://codemirror.net/lib/codemirror.js"></script>
+    <script type="text/javascript" src="http://codemirror.net/mode/clike/clike.js"></script>
+
+	<style type="text/css">
+		body
+		{
+		 margin: 0px;
+		 background-image:url('brown.png');
+		 background-repeat:no-repeat;
+		 background-attachment:fixed;
+		 background-position:center;
+		} 
+		h1 { margin: 20px; }
+		p { margin: 20px; }
+		#textarea { resize: none; width: 98%; height: 98%; position: absolute; top: 0px; border: 0px; margin: 1%; }
+		#textarea:focus { outline: none; }
+		
+		#textarea_count { font: 12px monospace; color: #999; }
+		#textarea_word { position:fixed; bottom: 42px; right: 10px; line-height: 12px; }
+		#textarea_char { position:fixed; bottom: 30px; right: 10px; line-height: 12px; }
+		
+		#save { position: fixed; bottom: 10px; right: 10px; cursor: pointer; opacity: 0.8; }
+		#save:hover { opacity: 1; }
+		#save:active { bottom: 9px; }
+		
+		a img { border: 0px; }
+		.share { height: 16px; width: 16px; outline: none; position: absolute; top: 10px; opacity: 0.8; }
+		.share:hover { opacity: 1; }
+		.share:active { top: 11px; }
+		.bookmark { right: 62px; }
+		.tweet { right: 10px; }
+		.fb { right: 36px; }
+		
+		#brown-help {
+			background-color: rgba(0,0,0,0.8);
+			color: #FFFFFF;
+			font: 12px monospace;
+			padding: 10px;
+			position: absolute;
+			right: 10px;
+			top: 64px;
+			width: 240px;
+			line-height: 16px;
+			display:none;
+		}
+		#brown-help ul, #brown-help ol {
+			margin: 0px 0px 10px -10px;
+		}
+		#brown-help p {
+			margin: 0px 0px 15px 10px;
+		}
+		#brown-help p a {
+			color:#fff;
+		}
+		#brown-help .title {
+			font-weight: bold;
+		}
+		#brown-help p.social {
+			margin: 0px 0px 5px 10px;
+		}
+		#brown-help p.bloglink {
+			margin: 10px 0px 0px 10px;
+		}
+		#arrow {
+			background-image:url(arrow.png);
+			opacity: 0.8;
+			position: absolute;
+			right: 10px;
+			top: 56px;
+			width: 8px;
+			height: 8px;
+			display:none;
+		}
+		#toggle {
+			cursor: pointer;
+			position: absolute;
+			right: 10px;
+			top: 36px;
+			font: 12px monospace;
+			color: #999;
+		}
+		#saved-msg-alert {
+			display: none;
+			z-index: 2;
+			position: fixed;
+			background: rgba(0,0,0,0.8);
+			color: #fff;
+			width: 220px;
+			height: 90px;
+			font-size: 32px;
+			text-align: center;
+			line-height: 96px;
+			font-family: sans-serif;
+			top: 50%;
+			left: 50%;
+			margin-top: -45px;
+			margin-left: -110px;
+			border-radius: 45px;
+			-moz-border-radius: 45px;
+  			-webkit-border-radius: 45px;
+  			text-shadow: #000 1px 1px 1px;
+		}
+		#emphasiser {
+			position: fixed;
+			bottom: 70px;
+			right: 80px;
+			width: 101px;
+			height: 94px;
+			background-image: url('kickass-handdrawn-arrow.png');
+		}
+		#pinterest {
+			display: none;
+		}
+		@media print {
+			a, span, p, h1, div, img { visibility: hidden; }
+		}
+	</style>
+	
+	<!-- this is valid html5 :) -->
+	<noscript>
+		<style type="text/css">
+			.bookmark, #toggle, #arrow, #brown-help, #save {display:none;}
+		</style>
+	</noscript>
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="http://www.javabrown.com/services/notepad/">
+	<meta property="og:image" content="icon.png">
+	<meta property="og:description" content="BrownPad is a quick and simple online text editor for plain text - JavaBrown.Com">
+	<meta name="google" value="notranslate">
+</head>
+
+<body>
+ 
+ 
+    <textarea name="textarea" style="overflow: hidden; height: 850px;filter:alpha(opacity=90); opacity:0.9;" cols="66" rows="22" id="textarea"></textarea> 
+	<div id="textarea_word"><span id="textarea_count">0</span></div>
+	<div id="textarea_char"><span id="textarea_count">0</span></div>
+	
+	<div style="display: none;" id="emphasiser"></div>
+	
+	<img id="save" src="textarea-save.png" onclick="textarea.save();$('#textarea').focus();javascript: _gaq.push(['_trackPageview', '/save-cookie-button']);" title="Save Cookie Ctrl+S" alt="save your text to cookie">    
+	
+	<a class="share bookmark" href="http://www.javabrown.com/services/notepad/" title="Bookmark" onclick="javascript: _gaq.push(['_trackPageview', '/bookmark-button']);bookmarksite('BrownPad', http://www.javabrown.com/services/notepad/');$('#textarea').focus();return false;"><img src="textarea-bookmark.png" alt="Online Text Editor"></a>
+	<a class="share tweet" href="http://twitter.com/home?status=myTextarea%20-%20a%20simple%20online%20text%20editor%20http://www.javabrown.com/services/notepad/" title="Tweet" onclick="textarea.save();javascript: _gaq.push(['_trackPageview', '/tweet-button']);" rel="external nofollow"><img src="textarea-twitter.png" alt="Tweet about this online text editor"></a>
+	<a class="share fb" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.javabrown.com/services/notepad/" title="Share" onclick="textarea.save();javascript: _gaq.push(['_trackPageview', '/facebook-button']);" rel="external nofollow"><img src="textarea-facebook.png" alt="Share this online text editor"></a>
+    
+    <span id="toggle">show info</span>
+    
+    <div id="arrow"></div>
+    <div id="brown-help">
+            <span class="title">Use brownPad</span>
+            <ul>
+                <li>to type plain text</li>
+                <li>to remove markup from text</li>
+                <li>to count words and characters</li>
+            </ul>
+	        <span class="title">Functions</span>
+	            <ol>
+	            	<li>tab key support</li>
+	                <li>save a cookie (Ctrl+S)</li>
+	                <li>word and character count</li>
+	            </ol>
+        <span class="title">Feedback</span>
+		<p>Feel free to <a href="mailto:hello@javabrown.com">drop me a line</a> or share this tool on <a href="http://twitter.com/home?status=brownPad%20-%20a%20simple%20online%20text%20editor%20www.javabrown.com/services/notepad/" title="Tweet" onclick="textarea.save();javascript: _gaq.push(['_trackPageview', '/tweet-button-help']);" rel="external nofollow">twitter</a> or <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.javabrown.com/services/notepad/" title="Share" onclick="textarea.save();javascript: _gaq.push(['_trackPageview', '/facebook-button-help']);" rel="external nofollow">facebook</a>, thanks!</p>
+				
+		<p class="social"><g:plusone size="medium"></g:plusone></p>		
+				 
+		<p class="bloglink">Made by <a href="http://www.javabrown.com/">Raja Khan</a></p>
+    </div>
+    
+	<script src="ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+		textarea = {
+		  textarea: null,
+		  init: function() {
+	 	   this.textarea = document.getElementsByTagName('textarea')[0];
+		    this.textarea.focus();
+		    this.load();
+		  },
+		  load: function() {
+		    this.textarea.value = localStorage.getItem('text');
+		  },
+		  save: function() {
+		    localStorage.setItem('text', this.textarea.value);
+		    $("#saved-msg-alert").css({'display':'block'});
+		    $("#saved-msg-alert").delay(340).fadeOut(600);
+		  }
+		}
+	</script>
+	
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="brownpad.js" type="text/javascript" charset="utf-8"></script>
+    
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-42211582-1']);
+		_gaq.push(['_trackPageview']);
+    
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+    
+	<script type="text/javascript">
+		function bookmarksite(title,url){
+		if (window.sidebar) // firefox
+			window.sidebar.addPanel(title, url, "");
+		else if(window.opera && window.print){ // opera
+			var elem = document.createElement('a');
+			elem.setAttribute('href',url);
+			elem.setAttribute('title',title);
+			elem.setAttribute('rel','sidebar');
+			elem.click();
+		} 
+		else if(document.all)// ie
+			window.external.AddFavorite(url, title);
+		else
+			alert('Please use Ctrl+D to bookmark BrownPad');
+		}
+	</script>
+	
+   <!-- <script>
+      var editor = CodeMirror.fromTextArea(document.getElementById("textarea"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        mode: "text/x-csrc"
+      }); 
+	  $(editor).css($("#textarea").css());
+	  //editor.setSize($("#textarea").css("width"), $("#textarea").css("height"));
+	  alert('done');
+    </script> -->	
+	
+	<div style="display: none;" id="saved-msg-alert">
+		Saved
+	</div>
+	
+
+<div style="position: absolute; display: none; word-wrap: break-word; font-weight: 400; width: 1254px; font-family: monospace; line-height: 16px; font-size: 13px; padding: 0px;">&nbsp;</div></body></html>

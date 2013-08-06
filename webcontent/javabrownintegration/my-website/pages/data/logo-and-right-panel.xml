@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<contents>   
+		<content>
+		  <!--<logo-image>css/images/logo.gif</logo-image>	-->
+		  <logo-image>css/images/logo1.png</logo-image>
+		  <width>456</width>
+		  <height>109</height>
+		  <corner-options>				
+				<option> 
+				  <name>Admin</name>
+				  <ref>&lt;a href='admin/browncms.php' class='thickbox' title='Please Sign In' &gt; Admin&lt;/a&gt;</ref>
+				  <option-class>xx</option-class>
+				</option>
+		  </corner-options>
+		</content>
+	</contents>

@@ -1,0 +1,297 @@
+<div id='internal-page-container' style="height:auto;">	
+	<hr style="border: 1px solid #000000;" />
+						 
+						<style type="text/css"> 
+							#container1 
+							{
+								width: 780px; 
+								background: #FFFFFF; 
+								margin: 0 auto; border: 1px solid #000000; 
+								text-align: left; 
+							} 
+							#sidebar 
+							{
+								float: left; width: 200px; background: #EBEBEB; padding: 15px 10px 15px 20px; 
+							} 
+							#mainContent1
+							{
+								margin: 0 0 0 250px; padding: 0 20px 20px 20px; 
+							}
+							
+							
+							.uul{
+							    list-style-image: url("pages/images/icon_arrow.gif");
+							    font-size: 15px; line-height: 16px; font-family:   Trebuchet MS, sans-serif, Arial,Helvetica;
+                                padding-bottom:2cm;
+							 }
+							 .lli{
+							    padding: 0 5px 5px 5px
+							 }
+                           
+						   
+						    .li0 {
+							  float: left;
+							}
+							.ul0 .li0 .a0:hover {
+							   color: blue;
+							   background:white;
+							   list-style-type: none;
+							}
+							.li0{
+							  list-style-type: none;
+							  font-size: 15px;
+							  padding-right: 1px;
+							  padding-left: 22px;
+							   color: black;
+							}
+							.ul0 .a0 {
+								color: black;
+								background-repeat: no-repeat;
+								background-position: right;
+								padding-right: 12px;
+								 
+								display: block; 
+								line-height: 20px;
+								text-decoration: none;
+								font-family: Georgia, "Times New Roman", Times, serif;
+								color: #371C1C;
+								list-style-type: none;
+							}						
+
+							
+							 .list_container a {
+							   display: block;
+							   padding: 1px;
+							   padding-left: 0px;
+							   width: 200px;
+							   height: 20px;
+							   background-color: #CCC;
+							   border-bottom: 1px solid #DDF;
+							 }
+                            
+							
+                            
+							 .list_container a:link, .list_container a:visited { color: #369; text-decoration: none; }
+                            
+							 .list_container a:hover { background-color: #369; color: #fff; }	
+							 
+								table, td, th
+								{
+								  
+								  
+								}
+								.rightcolumn{
+								  border-right: 1px dashed #999;
+								}
+								
+								td
+								{
+								  vertical-align:top;
+								  padding-left:10px;
+								}											  
+						</style>
+ 
+						 <br/>
+						    <div class='shadow1 >
+							        <ul class='ul0 shadow8' id='template'>
+									 
+									</ul>								
+							</div>	
+						  <br/>
+						     							
+							 
+							<div id='inner-content' class='inner-content shadow9'>
+								
+								<table class='shadow9' width="100%">
+								    <td class='rightcolumn' width="100%">
+												<ul class='ul0 ' id='templateTypes' style='list-style-type:none'>
+													 
+												</ul> 
+									</td>
+								</table>
+								
+							    <table class='shadow9'>
+									  <td class='rightcolumn' width="100%">
+											<div id='left' class='left'>
+											  <img src='http://mentalized.net/activity-indicators/indicators/ilcu/roller.gif'/>
+											</div>
+									  </td>
+									  <td width="25%">
+											<div id='right' class='right'>
+													<div class="list-element">
+														<div class="list_container">
+																	<ul class='uul' id='contentNames'>
+																		 <li class='lli'>
+																			<a href="#" onclick="alert('event 1')">Hibernate Introduction</a>
+																		 </li>
+																		 <li class='lli'>
+																			<a href="#" onclick="alert('event 1')">Hibernate Introduction</a>
+																		 </li>																		 
+																	</ul>
+														</div>
+													</div>
+											</div>									  
+									  </td>								  
+								</table>
+							 </div> <!-- END of Inner Content -->
+
+							 
+							 <script>
+								//load_level_page_content('data/tutorial-page-content.xml');
+								
+								function getTemplateTypes(templateCategoryName, render_component_id){
+								  	  		   $.ajax({
+														type: "GET",
+														url: 'admin/admin-php/templates-definitation.xml',
+														dataType: ($.browser.msie) ? "text" : "xml",
+														error: function(data){
+														  alert('Error occurred loading the XML :' + 'admin/admin-php/templates-definitation.xml');
+														 },						
+														success: function(data) {
+															var xml;
+															if (typeof data == "string") {
+															   xml = new ActiveXObject("Microsoft.XMLDOM");
+															   xml.async = false;
+															   xml.loadXML(data);
+															} else {
+															   xml = data;
+															}
+															
+															var lis = "";
+															$(xml).find('template').each(function(){
+															    var templateCategory = $(this).find('name').text();
+																if(true){
+																    //references><reference><name>Java</name>
+																    $(this).find('references').each(function(){
+																	    $(this).find('reference').each(function(){
+																             var templateName = $(this).find('name').text();
+																			 var embedref = $(this).find('embedref').text();  
+																			 lis+="<li class='li0 text4'> <a class='a0 text2 button1' embedref='"+embedref+"' href='#' onmouseover='getContentsForSelectedTemplate(\""+ embedref +"\", \"templateTypes\")'>"+templateName+"</a></li>";
+																		});
+																    });
+																}
+															});
+															
+															 
+
+															$("#"+render_component_id).html(lis);
+															//alert('embed done');
+														}
+												});
+								}
+ 					 
+						        function getContentsForSelectedTemplate(templateEmbedref, targetId){
+								               templateEmbedref = "admin/admin-php/"+templateEmbedref;
+								  	  		   $.ajax({
+														type: "GET",
+														url: templateEmbedref,
+														dataType: ($.browser.msie) ? "text" : "xml",
+														error: function(data){
+														  alert('Error occurred loading the XML :'+templateEmbedref);
+														 },						
+														success: function(data) {
+															var xml;
+															if (typeof data == "string") {
+															   xml = new ActiveXObject("Microsoft.XMLDOM");
+															   xml.async = false;
+															   xml.loadXML(data);
+															} else {
+															   xml = data;
+															}
+								
+															var lis = "";
+															$(xml).find('template').each(function(){
+															    $(this).find('contents').each(function(){ //var contentNames = "ccc";
+																   var contentType = $(this).attr('type');  //alert("getContentNamesForSelectedContentType("  + "\"" + embedref  + "\"" +  " , "  + "\"" + contentType  + "\"" + " , " + "\"" + contentNames  +  "  \"  )" );
+																   var embedref = templateEmbedref;
+																   var componentToRender = "contentNames";
+																   lis+= "<li class='li0 text2'><a class='a0 shadow9 text1' href='#' embedref='"+embedref+"' onclick='  getContentNamesForSelectedContentType("  + "\"" + embedref  + "\"" +  " , "  + "\"" + contentType  + "\"" + " , " + "\"" + componentToRender  +  "  \"  )  '>"+contentType+"</a></li>";    
+																});
+															});
+															
+															$("#"+targetId).html(lis);
+														}
+												});								  
+								}
+
+						        function getContentNamesForSelectedContentType(templateEmbedref, lookupContentType, targetId){
+								               //var prefix = "admin/admin-php/";
+								  	  		   $.ajax({
+														type: "GET",
+														url: templateEmbedref,
+														dataType: ($.browser.msie) ? "text" : "xml",
+														error: function(data){
+														  alert('Error occurred loading the XML :'+templateEmbedref);
+														},
+														success: function(data) { //alert(data);
+															var xml;
+															if (typeof data == "string") {
+															   xml = new ActiveXObject("Microsoft.XMLDOM");
+															   xml.async = false;
+															   xml.loadXML(data);
+															} else {
+															   xml = data;
+															}
+								
+															var lis = "";
+															$(xml).find('template').each(function(){
+																	$(this).find('contents').each(function(){
+																	    var contentType = $(this).attr('type');  //alert('looking for contentType'+ contentType +', '+lookupContentType);
+																		if(contentType == lookupContentType){  //alert('found for contentType'+ contentType +', '+lookupContentType);
+																			$(this).find('content').each(function(){
+																				var content_embedref = $(this).find('embedref').text();
+																				var contentName = $(this).find('display_name').text(); //alert(contentType+':'+contentName);
+																				if(contentName == ''){
+																				  contentName = $(this).find('name').text();
+																				}
+																				var target = "left";
+																				 
+																				lis+="<li class='lli'><a class='a0' href='#' embedref='"+ content_embedref +"' onclick='getContent(\""+ content_embedref +"\", \""+target+"\")'>"+contentName+"</a></li>"; 																	
+																			});
+																		}
+																	});
+															});
+
+															$("#"+targetId).html(lis);
+														}
+												});								  
+								}
+								
+ 
+						        function getContent(templateEmbedref, targetId){
+								               var ref = "admin/admin-php/" + templateEmbedref;
+											   $("#"+targetId).load(ref);
+								  	  		   /*$.ajax({
+														type: "GET",
+														url: ref,
+														dataType: ($.browser.msie) ? "text" : "xml",
+														error: function(data){
+														  alert('Error occurred loading the XML :'+ref);
+														},						
+														success: function(data) {
+															var xml;
+															if (typeof data == "string") {
+															   xml = new ActiveXObject("Microsoft.XMLDOM");
+															   xml.async = false;
+															   xml.loadXML(data);
+															} else {
+															   xml = data;
+															}
+															 
+															var content = "loading...";
+															$(xml).find('content').each(function(){
+															  content = $(this).find('value').text();										  
+															});
+															
+															$("#"+targetId).html(content);
+														}
+												});	*/							  
+								}
+								
+								getTemplateTypes('Tutorial', 'template');
+								getContentsForSelectedTemplate("zcontent/Java_template.xml", "templateTypes");
+								getContentNamesForSelectedContentType("admin/admin-php/zcontent/Java_template.xml" , "Spring" , "contentNames  "  );
+								getContent("zcontent/Introduction-Of-Spring.xml", "left"); 
+							     
+							 </script>
+</div>

@@ -1,0 +1,93 @@
+<div> 
+	<style>
+
+
+		.img0{
+		  border:none;
+		  width:85px;
+		  height:85px;
+		}
+		.ul0,.li0{
+			margin:0;
+			padding:0;
+		}
+		.li0{
+			list-style:none;
+			float:left;
+			display:inline;
+			margin-right:10px;
+		}
+
+		/*  */
+
+		#preview{
+			position:absolute;
+			border:1px solid #ccc;
+			background:#333;
+			padding:5px;
+			display:none;
+			color:#fff;
+			}
+
+		/*  */
+	</style>
+
+	 
+		 
+
+		 <hr/><br/>
+		<table>
+			<tr>
+				<td>
+					<li class='li0'>
+					  <a href="pages/food-images/sample-1.jpg" class="preview" title="--">
+					    <img class='img0' src="pages/food-images/sample-1.jpg" alt="gallery thumbnail"></img>
+					  </a>
+					</li>
+					<li class='li0'><a href="pages/food-images/sample-2.jpg" class="preview" title="Fly fishing"><img class='img0' src="pages/food-images/sample-2.jpg" alt="gallery thumbnail"/></a></li>
+					<li class='li0'><a href="pages/food-images/sample-3.jpg" class="preview" title="--"><img class='img0' src="pages/food-images/sample-3.jpg" alt="gallery thumbnail"/></a></li>
+				</td>	
+			</tr>	
+			<tr>
+				<td>
+					<li class='li0'><a href="http://freestyle.sourceforge.net/IMAGES/freestylelogo.jpg" class="preview" title="--"><img class='img0' src="pages/food-images/sample-4.jpg" alt="gallery thumbnail"/></a></li>
+					<li class='li0'><a href="pages/food-images/sample-5.jpg" class="preview" title="--"><img class='img0' src="http://blog.justiceserved.com/wp-content/uploads/2008/12/project-management.jpg" alt="gallery thumbnail"/></a></li>
+					<li class='li0'><a href="pages/food-images/sample-1.jpg" class="preview" title="--"><img class='img0' src="http://freestyle.sourceforge.net/IMAGES/freestylelogo.jpg" alt="gallery thumbnail"/></a></li>
+				</td>	
+			</tr>	
+		</table>
+
+		 <script>
+				this.imagePreview = function(){
+					/* CONFIG */
+						
+						xOffset = 100;
+						yOffset = 100;
+						
+						// these 2 variable determine popup's distance from the cursor
+						// you might want to adjust to get the right result
+						
+					/* END CONFIG */						
+					$("a.preview").hover(function(e){
+						this.t = this.title;
+						this.title = "";	
+						var c = (this.t != "") ? "<br/>" + this.t : "";
+						$("body").append("<p id='preview'><img width='200' height='200' src='"+ this.href +"' alt='Image preview' />"+ c +"<input type='text'/> <button>hello</button></p>");								 
+						$("#preview")
+							.css("top",(e.pageY - xOffset) + "px")
+							.css("left",(e.pageX + yOffset) + "px")
+							.fadeIn("fast");						
+					},
+					function(){
+						this.title = this.t;	
+						$("#preview").remove();
+					});	
+					$("a.preview").mousemove(function(e){
+						$("#preview")
+							.css("top",(e.pageY - xOffset) + "px")
+							.css("left",(e.pageX + yOffset) + "px");
+					});			
+				}; 
+				imagePreview();
+		 </script>
+ </div>

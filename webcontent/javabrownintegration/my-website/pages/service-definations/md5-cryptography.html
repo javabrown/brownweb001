@@ -1,0 +1,62 @@
+<!-- MD-5 Encription service defination -->
+ 
+<div class="alert alert-info well span11">
+    <button class="close" data-dismiss="alert" type="button" onclick="$(this).parent().hide();">×</button>
+    <p id="about_me">DEFINE IT</p> 
+</div>
+    
+<div id="request-div span12">
+	<textarea class="field span11" rows="15" placeholder="Enter a request" id="request_text_area"></textarea>
+</div>
+
+<div id="row well form-inline span11" class="well">
+	<a class="btn" onclick="performMd5Encode();">Submit</a>
+</div>
+
+<div class="divider" id="response_area_scroll_down"></div>
+
+<div class="brown-hide" id="result_div">
+	<br/>
+	<strong><b>Response:</b></strong>
+	<div class="well" style="height:auto;">
+		<textarea readonly class="field span11 page-output well" contenteditable="true" rows="15" placeholder="Enter a request" id="result_text_area0"></textarea>
+
+        <div id="row well form-inline span11" class="well">
+	       <a class="btn btn-inverse" onclick="closeAndScrollUp();">Close</a>
+        </div>	
+	</div>
+	
+  
+</div>
+
+ 
+<script src="js/crypto-js/md5.js"></script>
+<script>
+	function performMd5Encode()
+	{
+			  
+	          var request_val = $("#request_text_area").val();
+	          var hash = CryptoJS.MD5(request_val);
+
+	          $("#result_div").removeClass("brown-hide");
+	          $("#result_text_area0").val(hash);
+	          
+	         scrolldown();
+	}
+	
+	function scrolldown(){
+		$('html,body').animate({
+			scrollTop: $("#response_area_scroll_down").offset().top -100
+		}, 500);
+	}
+	
+	function closeAndScrollUp(){
+	    $("#result_div").addClass("brown-hide");
+		$('html,body').animate({
+			scrollTop: $("body").offset().top
+		}, 500);
+	}
+	
+	var aboutme_text = "MD5 (Message-Digest algorithm 5) is a widely used hash function. It's been used in a variety of security applications and is also commonly used to check the integrity of files. Though, MD5 is not collision resistant, and it isn't suitable for applications like SSL certificates or digital signatures that rely on this property.";
+	$("#about_me").html(aboutme_text);
+</script>

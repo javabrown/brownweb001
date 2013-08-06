@@ -1,0 +1,22 @@
+<div id="main-content" class="span12">
+						<div id="request-div span12">
+							<textarea class="field span12" rows="15" placeholder="Enter a request" id="request_text_area"></textarea>
+						</div>
+						
+						<div id="row well form-inline span12" class="well">
+							<a class="btn" onclick="perform();">Submit</a>
+						</div>
+						
+						
+						<div class="divider"></div>
+						
+						<div class="brown-hide" id="result_div">
+							<br/>
+							<strong><b>Response:</b></strong>
+							<div class="well" style="height:auto;">
+								<p class="field span12 page-output well" contenteditable="true" rows="15" placeholder="Enter a request" id="result_text_area"></p>
+							</div>
+						</div>
+						
+</div>                    
+                    

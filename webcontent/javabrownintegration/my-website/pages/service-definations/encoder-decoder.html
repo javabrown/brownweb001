@@ -1,0 +1,33 @@
+<!-- SHA-2 Encription service defination -->
+ 
+<div class="alert alert-info well span11">
+    <button class="close" data-dismiss="alert" type="button" onclick="$(this).parent().hide();">×</button>
+    <p id="about_me">DEFINE IT</p> 
+</div>
+    
+<div id="request-div span12">
+	<textarea class="field span11" rows="15" placeholder="Enter a request" id="dencoder"></textarea>
+</div>
+
+<div id="row well form-inline span11" class="well">
+	<a class="btn" onclick="decode();">Decode</a>
+	<a class="btn" onclick="encode();">Encode</a>
+</div>
+ 
+<script>
+  function encode() {
+	var obj = document.getElementById('dencoder');
+	var unencoded = obj.value;
+	obj.value = encodeURIComponent(unencoded).replace(/'/g,"%27").replace(/"/g,"%22");	
+  }
+  
+  function decode() {
+	var obj = document.getElementById('dencoder');
+	var encoded = obj.value;
+	obj.value = decodeURIComponent(encoded.replace(/\+/g,  " "));
+  }	
+
+	var aboutme_text = "Percent-encoding, also known as URL encoding, is a mechanism for encoding information in a Uniform Resource Identifier (URI) under certain circumstances. It is used in the preparation of data of the application/x-www-form-urlencoded media type, as is often used in the submission of HTML form data in HTTP requests.";
+	$("#about_me").html(aboutme_text);
+	 
+</script>

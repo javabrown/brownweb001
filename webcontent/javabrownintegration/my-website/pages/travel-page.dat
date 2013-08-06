@@ -1,0 +1,48 @@
+<div id='internal-page-container' style="height:auto;">	
+    <hr style="border: 1px solid #000000;" />
+ 
+	
+	 <div class='inner-content shadow'>
+ 
+		 
+				<ul id="animated-panorama">
+					<li>
+						<a href=""><img src="http://images.psxextreme.com/wallpapers/ps3/red_rose_01.jpg" alt="OpenStudio" title="Le Puy en Velay, Auvergne - vue depuis le Rocher Corneille"/></a>
+					</li>
+					<li>
+						<a href=""><img src="http://www.theroseman.net/images/rose.jpg" alt="OpenStudio" title="Le Puy en Velay, Auvergne - vue depuis l'h&ocirc;tel de r&eacute;gion"/></a>
+					</li>
+					<li>
+						<a href=""><img src="http://www.coolfreeimages.net/images/flowers/flowers_02.jpg" alt="OpenStudio" title="Le Puy en Velay, Auvergne - vue depuis l'h&ocirc;tel de r&eacute;gion"/></a>
+					</li>					
+				</ul>
+			 
+	</div> 
+
+ 
+ 
+ 
+ 
+		 
+ </div>
+
+ 
+ 	         
+	<script>
+						$('ul#animated-panorama').animatedinnerfade({
+							speed: 2000,
+							timeout: 5000,
+							type: 'sequence',
+							containerheight: '498px',
+							containerwidth: 'auto',
+							animationSpeed: 15000,
+							animationtype: 'slide',
+							//bgFrame: 'img/frame.gif',
+							controlBox: 'none',
+							controlBoxClass: 'mycontrolboxclass',
+							controlButtonsPath: 'img',
+							displayTitle: 'yes'
+						});
+ 
+						
+	</script>

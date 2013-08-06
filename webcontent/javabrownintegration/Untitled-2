@@ -1,0 +1,151 @@
+<div id="internal-page-container" style="width: 100%; height: 950px; align: center;">
+   <hr style="border: 1px solid #000000;" />
+   <br />
+   <div class="inner-content">
+       
+      <div id="main" class="home-content auto-foucs">
+         <!-- begin main div -->
+         <div class="big_caption shadow9 auto-foucs"><strong>JBrown GEO API</strong> "an open source restfull service"</div>
+      </div>
+      <!-- end main div -->
+      <div>
+         <!-- Button COntent begin -->
+         <div class="recent_work_label_bottom"><a>Recent Work</a></div>
+         <!-- BEGIN -->
+         <div class="box-recent-work auto-focus">
+            <!--recent-1-->
+            <div class="boxet_balline">
+               <div class="services_balline shadow2">
+                  <h2><a href="http://javabrown.com/?FaqeID=4">Networking</a> <strong>.</strong></h2>
+                  <ul>
+                     <li>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Performance Monitoring</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                     <li>
+                        <div class="service_ikona" style="background: url('foto/services/20120907090206_web_grey.png') no-repeat center center;">&nbsp;</div>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Remote Connect</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="box-recent-work auto-focus">
+            <!--recent-2-->
+            <div class="boxet_balline">
+               <div class="services_balline shadow2">
+                  <h3><a href="http://javabrown.com/?FaqeID=4">App Services</a> <strong>.</strong></h3>
+                  <ul>
+                     <li>
+                        <div class="service_ikona" style="background: url('foto/services/20120907085838_mobile_grey.png') no-repeat center center;">&nbsp;</div>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Mobile</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                     <li>
+                        <div class="service_ikona" style="background: url('foto/services/20120907090206_web_grey.png') no-repeat center center;">&nbsp;</div>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Web</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="box-recent-work auto-focus">
+            <!--recent-3-->
+            <div class="boxet_balline">
+               <div class="services_balline shadow2">
+                  <h1><a href="http://javabrown.com/?FaqeID=4">Services</a> <strong>.</strong></h1>
+                  <ul>
+                     <li>
+                        <div class="service_ikona" style="background: url('foto/services/20120907085838_mobile_grey.png') no-repeat center center;">&nbsp;</div>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Mobile</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                     <li>
+                        <div class="service_ikona" style="background: url('foto/services/20120907090206_web_grey.png') no-repeat center center;">&nbsp;</div>
+                        <table style="width: 150px;" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td><span>Web</span> <em>JavaBrown designs and develops...</em></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- Button Content end --> <!-- END --> <!-- CMS BEGIN --> <!-- Button-0 Content end -->
+         <div class="recent_work auto-focus">
+            <!-- 1. Begin -->
+            <div class="recent_worki">
+               <div class="recent_worki_img"><img src="http://www.spinxwebdesign.com/images/mobileapp/iphone-application-Development.png" alt="" width="285" height="170" /></div>
+               <div class="recent_worki_info">
+                  <div class="recent_worki_tekst">
+                     <h6><strong>ConXfer</strong> Android Application</h6>
+                     <p>Enabling Secure &amp; Trusted Contacts Exchange</p>
+                  </div>
+                  <div class="recent_worki_link">&nbsp;</div>
+               </div>
+            </div>
+            <!-- 1. End --> <!-- 2. Begin -->
+            <div class="recent_worki">
+               <div class="recent_worki_img"><img src="http://blog.monitor.us/wp-content/uploads/2012/07/content-management-system-cms.jpg" alt="" width="285" height="170" /></div>
+               <div class="recent_worki_info">
+                  <div class="recent_worki_tekst">
+                     <h6><strong>ConXfer</strong> Android Application</h6>
+                     <p>Enabling Secure &amp; Trusted Contacts Exchange</p>
+                  </div>
+                  <div class="recent_worki_link">&nbsp;</div>
+               </div>
+            </div>
+            <!-- 2. End --> <!-- 3. Begin -->
+            <div class="recent_worki">
+               <div class="recent_worki_img"><img src="http://www.choopa.com/images/cloud/diagram.png" alt="" width="285" height="170" /></div>
+               <div class="recent_worki_info">
+                  <div class="recent_worki_tekst">
+                     <h6><strong>ConXfer</strong> Android Application</h6>
+                     <p>Enabling Secure &amp; Trusted Contacts Exchange</p>
+                  </div>
+                  <div class="recent_worki_link">&nbsp;</div>
+               </div>
+            </div>
+            <!-- 3. End -->
+         </div>
+         <!-- CMS END --> <!-- Button-0 Content end -->
+      </div>
+      <!-- inner-content end -->
+   </div>
+   <!-- internal-page-container end -->
+   <p>&nbsp;</p>
+   <script type="text/javascript">// <![CDATA[
+      load_level_page_content('data/home-page-content.xml');
+      // ]]>
+   </script>
+</div>

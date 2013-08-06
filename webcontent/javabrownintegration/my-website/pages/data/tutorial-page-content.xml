@@ -1,0 +1,14 @@
+	<page-content>
+		  <page-id>page_2</page-id>
+		  <default-page-height>auto</default-page-height>
+		  <page-name>Web Services Applications</page-name>
+ 
+		  
+         <page-text-contents>
+			<text-content>
+			    <container-id>left</container-id>  <!-- component where slider will be placed -->			
+				<linked-content>admin/admin-php/dynamic-content/tutorial-content.xml</linked-content>
+			</text-content>
+		 </page-text-contents>
+		 
+    </page-content>

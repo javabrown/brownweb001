@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contents>   
+	<content>
+ 	  <name>JavaBrown.com</name>
+	  <width>130</width>
+	  <height>152</height>	  
+	  
+	  <images>
+	      <image> 
+		     <image-name>RK-Services</image-name>
+		     <image-url>https://lh5.googleusercontent.com/-MHfM5-8qztU/TwOsh-9aslI/AAAAAAAAApg/6nwEYe_paSo/s720/Me%2540Liberty.JPG</image-url>
+			 <status>ACTIVE</status>
+	      </image>
+	      <image>
+		     <image-name>Powered by javabrown.com/rkhan</image-name>
+		     <image-url>https://lh4.googleusercontent.com/-uvYZdslVY84/Txed4fr__bI/AAAAAAAAApg/a_GWakYJmhs/s912/WP011.JPG</image-url>
+			 <status>INACTIVE</status>
+	      </image>
+	      <image>
+		     <image-name>Powered by javabrown.com/rkhan</image-name>
+		     <image-url>https://lh6.googleusercontent.com/-GVjQHWf6Gs4/TwKLi8a4KfI/AAAAAAAAApg/VIFFxfbWPjk/s640/IMG_0376_2.JPG</image-url>
+			 <status>INACTIVE</status>
+	      </image>	
+	      <image>
+		     <image-name>Powered by javabrown.com/rkhan</image-name>
+		     <image-url>https://lh6.googleusercontent.com/-WtLKGn8dEVA/TLpKfB1XYiI/AAAAAAAAApg/e-HW2K2gVLc/s720/NY-1.JPG</image-url>
+			 <status>INACTIVE</status>
+	      </image>			  
+	      <image>
+		     <image-name>Powered by javabrown.com/rkhan</image-name>
+		     <image-url>https://lh3.googleusercontent.com/-OrzQUK466w4/TwKLkcabzYI/AAAAAAAAApg/5oLepkYaRMk/s720/IMG_0376_9.JPG</image-url>
+			 <status>INACTIVE</status>
+	      </image>	  	  
+	  </images>
+	  
+	  <text>JavaBrown.com is the foundation of an open source services for enterprise Java computing. Joining hands of expert professional on the globe to create next-generation Web applications, and the full power of the Java Supported technology platform for enterprise applications. ...</text>
+	</content>
+ </contents>

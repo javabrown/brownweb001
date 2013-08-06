@@ -1,0 +1,112 @@
+				.iform {font: 12px/26px Verdana, Geneva, sans-serif; width:600; margin:30px auto;}
+				.iform ul { margin:0; padding:10; list-style:none;}
+				.iform   { overflow:auto}
+				.iform   { padding-bottom:5px;}
+				.iform label { 
+				 width:130px; display:block; float:left; line-height:26px;
+				}
+				.iform label.ilabel { padding-bottom:5px;
+				 width:auto; display:inline; float:none; line-height:26px; padding:0 5px
+				}
+
+				.iform .itext,.iform .itextarea,.iform .iselect,.iform .ibutton { 	
+					width:200px;
+					border:1px solid #999;
+					-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+					margin:0;
+					padding:5px;
+					background: #fff;
+					background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+					background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+					box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+					-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+					-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+
+				}
+
+				.iform .itext:hover,.iform .itextarea:hover,.iform .iselect:hover,.iform .ibutton:hover,
+				.iform .itext:focus,.iform .itextarea:focus,.iform .iselect:focus,.iform .ibutton:focus{
+
+				border-color: #333;
+				background:#fff;
+
+				}
+
+ 
+
+				.iform .itextarea{ 
+					height:100px; width: 250px;
+				}
+				
+				.iform .ibutton {
+					width:auto;
+					background: #efefef;
+					background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+					background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+					box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+				}
+				
+				.iform .ibutton:hover,.iform .ibutton:focus { background:#dadada;}
+				.iform .iheader { display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; text-indent:10px; margin:5px 0 15px }
+				.iform .iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+                .iemptyline { display:block; text-indent:-9999px; height:10px; line-height:10px; }
+
+				.iform .required { border-color:#F00; }
+				
+				.ishadow{
+						background-color: #ffffff;
+						border: 2px solid #999999;
+						-moz-box-shadow: 0px 0px 20px #000000;
+						-webkit-box-shadow: 0px 0px 20px #000000;
+						box-shadow: 0px 0px 20px #000000;
+						/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+						filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#000000');
+						/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+						/*Element must have a height (not auto)*/
+						/*All filters must be placed together*/
+						-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#000000')";
+						/*Element must have a height (not auto)*/
+						/*All filters must be placed together*/
+						background-image: -moz-linear-gradient(top, #ffffff, #000000);
+						background-image: -ms-linear-gradient(top, #ffffff, #000000);
+						background-image: -o-linear-gradient(top, #ffffff, #000000);
+						background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#000000));
+						background-image: -webkit-linear-gradient(top, #ffffff, #000000);
+						background-image: linear-gradient(top, #ffffff, #000000);
+						/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+				}
+				
+				.ishadow1{
+				    background-color: #ffffff;
+					border: 2px solid #999999;
+					-moz-border-radius: 7px;
+					-webkit-border-radius: 7px;
+					border-radius: 7px;
+					/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+					-moz-box-shadow: 0px 0px 20px #000000;
+					-webkit-box-shadow: 0px 0px 20px #000000;
+					box-shadow: 0px 0px 20px #000000;
+					/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#000000');
+					/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+					/*Element must have a height (not auto)*/
+					/*All filters must be placed together*/
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#000000')";
+					/*Element must have a height (not auto)*/
+					/*All filters must be placed together*/
+					background-image: -moz-linear-gradient(top, #ffffff, #000000);
+					background-image: -ms-linear-gradient(top, #ffffff, #000000);
+					background-image: -o-linear-gradient(top, #ffffff, #000000);
+					background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#000000));
+					background-image: -webkit-linear-gradient(top, #ffffff, #000000);
+					background-image: linear-gradient(top, #ffffff, #000000);
+					-moz-background-clip: padding;
+					-webkit-background-clip: padding-box;
+					background-clip: padding-box;
+					/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+					/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+				}
+				
+				.ifont{
+                     font-weight: normal; text-decoration: underline; font-style: italic; text-align: right; background-color: rgba(255, 255, 255, 0); color: #666666; font-family: Georgia, serif; font-size: 61.0px; line-height: 125%; text-shadow: -4.5px 0px 7.0px rgba(51, 51, 51, 0.8), 2.0px 0px 1.0px #2E1706, 2.0px 1.0px 1.0px #333333; -webkit-column-count:2; -moz-column-count:2; column-count:2; -webkit-column-width:0px; -moz-column-width:0px; column-width:0px; -webkit-column-gap:0px; -moz-column-gap:0px; column-gap:0px;
+				}

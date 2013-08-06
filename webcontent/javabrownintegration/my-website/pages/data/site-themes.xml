@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<themes>
+   <theme>
+      <name>Christmas</name>
+      <valid_from>10-DEC</valid_from>
+      <valid_to>26-DEC</valid_to>
+      <image1>images/site-theme/christmas/home-page.jpg</image1>
+   </theme>
+   <theme>
+      <name>US-Independence</name>
+      <valid_from>01-JUL</valid_from>
+      <valid_to>07-JUL</valid_to>
+      <image1>http://www.polarising.com/wp-content/uploads/2012/04/services.jpg</image1>
+   </theme>
+  <!-- <theme>
+      <name>Indian-Independence</name>
+      <valid_from>08-JUL</valid_from>
+      <valid_to>18-AUG</valid_to>
+      <image1>http://www.jgpws.com/tutorials/photoshop/images/sanddark_tn_50px.gif</image1>       
+   </theme> -->
+   <theme>
+      <name>RAMADAN</name>
+      <valid_from>01-JUL</valid_from>
+      <valid_to>05-JUL</valid_to>
+      <image1>http://aidin.crawfordonline.info/wp/AidinScribble-wp-tile.jpg</image1>       
+   </theme>   
+   <theme>
+      <name>EID</name>
+      <valid_from>25-AUG</valid_from>
+      <valid_to>30-AUG</valid_to>
+      <image1>http://www.webmastergrade.com/wp-content/uploads/2011/08/Ramadan-Mubarak-Wallpaper.jpg</image1>       
+   </theme> 
+   <theme>
+      <name>DIPAWALI</name>
+      <valid_from>07-OCT</valid_from>
+      <valid_to>08-OCT</valid_to>
+      <image1>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTPHXV17tAp_arXYnBW1MFTMKjADNjRNx3uyahUcRsp_xi8JUjw</image1>       
+   </theme>          
+   <theme>
+      <name>DEFAULT</name>
+      <valid_from>01-JAN</valid_from>
+      <valid_to>31-DEC</valid_to>
+      <image1>images/bg-default.jpg</image1>       
+   </theme>     
+
+</themes>
+

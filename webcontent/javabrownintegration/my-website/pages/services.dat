@@ -1,0 +1,136 @@
+<style>
+   .rightcolumn{border-right: 1px dashed #999;}
+</style>
+
+<div id='internal-page-container' style="width:100%;height:950px;align:center">	
+    <hr style="border: 1px solid #000000;" />
+ 
+	<br/>
+	 <div class='inner-content' >
+	        <script>
+	           function show(name){
+	             if(name == 'demo'){
+	               
+	             }
+	           }
+	        </script>
+	     
+		     <center>
+			 <table class='shadow9' width="95%" style='padding-left:10px;'>
+				    <td class='rightcolumn' width="35%">
+								 
+									  			<br/> 
+											<center>
+											   <img class='list-element-img round' 
+											     src="pages/images/web-services.png" 
+												 alt="Klematis" width="150" height="100" />
+										    </center>
+											<b>Session Recorder Service</b>     <br/>
+											 Webservice [Format:SOAP,XML,JSON]  <br/><br/> 
+											<a href="#" class="button1" onclick=" ajaxLoad($('#service_pane'),'http://localhost:8080/jbrownservices/ws/countryinfo/IN/Jharkhand/Hazaribagh') ">DEMO</a>&nbsp;
+											<a href="#" class="button1">Document</a>&nbsp; 
+									        <a href="#" class="button1">DOWNLOAD</a>							 
+					</td>
+					<td class='' width="100%">
+								<center>Session Recorder Service</center> 
+								<center>
+								
+								 <div class='shadow4' id='service_pane'>
+								    
+								 </div>
+								 <script>
+								    alert('hello');
+								   // ajaxLoad($('#service_pane'),'http://javabrownservices.appspot.com/ws/countryinfo/IN');
+								    //alert('called');
+								 </script>
+								</center>
+								
+								<!-- Facebook Plugin Test BEGIN -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=191755937618715";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+ <div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="292" data-show-faces="true" data-stream="true" data-header="true"></div>
+<!-- Facebook Plugin Test BEGIN -->
+														
+					</td>					
+			 </table>
+			 </center>
+		    
+		     <br/>
+
+			
+		     <center>
+			 <table class='shadow9' width="95%" style='padding-left:10px;'>
+				    <td class='rightcolumn' width="35%">
+								 
+									  			 
+											<center>
+											   <img class='list-element-img round' 
+											     src="pages/images/web-services.png" 
+												 alt="Klematis" width="150" height="100" />
+										    </center>
+											<b>Brown Storage Services</b>     <br/>
+											 Webservice [Format:SOAP,XML,JSON]  <br/><br/> 
+											<a href="#" class="button1">DEMO</a>&nbsp;
+											<a href="#" class="button1">Document</a>&nbsp; 
+									        <a href="#" class="button1">DOWNLOAD</a>
+							 
+					</td>
+					<td class='' width="100%">					
+								<center>Brown DB Service</center> 
+								<center>
+									<img class='list-element-img round' 
+										src="pages/images/under-construction3.jpg" 
+										alt="Klematis" width="150" height="100" />
+								</center>								
+					</td>					
+			 </table>
+			 </center>
+			
+			 <br/>
+			
+		     <center>
+			 <table class='shadow9' width="95%" style='padding-left:10px;'>
+				    <td class='rightcolumn' width="35%">
+								 
+									  			 
+											<center>
+											   <img class='list-element-img round' 
+											     src="pages/images/web-services.png" 
+												 alt="Klematis" width="150" height="100" />
+										    </center>
+											<b>Brown Content</b>     <br/>
+											 Webservice [Format:XML]  <br/><br/> 
+											<a href="#" class="button1" onclick=" $('#decoder').toggle('slow', function() {
+																						  
+																					  });; return false;" >
+												DEMO
+											</a>&nbsp;
+											<a href="#" class="button1">Document</a>&nbsp; 
+									        <a href="#" class="button1">DOWNLOAD</a> 
+							 
+					</td>
+					<td class='' width="100%">					
+								<center>Brown URL Encoder</center> 
+								<center> 
+									<div id='decoder' style='display:none'>
+										<!-- <applet id='decoderapp' code="GuiExample.class" width="600" height="200">
+											Sorry, no Java installed. Obtain it from http://java.com/en/download/manual.jsp
+										</applet> -->
+									</div>
+								</center> 							
+					</td>					
+			 </table>
+			 </center>	
+	 
+		
+	 </div> <!-- inner-content end -->
+	 
+ </div> <!-- internal-page-container end -->
+ 

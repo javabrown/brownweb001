@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu>   
+	<menuItem>
+      <id>001</id>	
+	  <name>Home</name>
+	  <ref>index.php</ref>
+	  <selection>active</selection>
+	  <icon>icon-th-large</icon>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <!-- <destination>pages/home.dat</destination> -->
+			 <destination>pages/cms-home-page.php</destination>
+	  </action-map>		  
+	</menuItem>
+
+	<menuItem>
+	  <id>002</id>		
+	  <name>Projects</name>
+	  <ref>projects.php</ref>
+	  <icon>icon-list</icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <!-- <destination>pages/projects.dat</destination> -->
+			 <!-- <destination>pages/cms-project-page.php</destination> -->
+			 <destination>pages/projects.php</destination>
+	  </action-map>			  
+	</menuItem>
+		
+	<menuItem>
+	  <id>003</id>		
+	  <name>Services</name>
+	  <ref>services.php</ref>
+	  <icon>icon-asterisk</icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <destination>pages/services.dat</destination>
+			 <destination>pages/cms-service-page.php</destination>
+	  </action-map>			  
+	</menuItem>
+
+	<menuItem>
+	  <id>004</id>	
+	  <name>Blog</name>
+	  <!--ref>blog.php</ref-->
+	  <ref>blog.php</ref>
+	  <icon>icon-folder-open</icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <destination>pages/tutorial-content-page.dat</destination>
+	  </action-map>			  
+	</menuItem>
+
+ 	<menuItem>
+	  <id>005</id>	
+	  <name>Resources</name>
+	  <ref>resources.php</ref>
+	  <icon>icon-eye-open</icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>005</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <destination>pages/album.dat</destination>
+	  </action-map>			  
+	</menuItem>	
+	
+ 	<menuItem>
+	  <id>006</id>	
+	  <name>About US</name>
+	  <ref>about-us.php</ref>
+	  <icon>icon-info-sign</icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <!-- <destination>pages/about-linkedin.dat</destination>-->
+			 <destination>pages/cms-about-page.php</destination>
+	  </action-map>			  
+	</menuItem>
+	
+	<!-- <menuItem>
+	  <id>007</id>		
+	  <name>CMS</name>
+	  <ref></ref>
+	  <icon></icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <destination>pages/cms-page.dat</destination>
+	  </action-map>			  
+	</menuItem> -->
+	
+	<!-- <menuItem>
+	  <id>007</id>		
+	  <name>BEBO</name>
+	  <ref>bebo-test-page.php</ref>
+	  <icon></icon>
+	  <selection>inactive</selection>
+	  <action-map>
+			 <selectionMenuId>001</selectionMenuId>	
+			 <action-parameter>DEFAULT</action-parameter>
+			 <destination>pages/cms-page.dat</destination>
+	  </action-map>			  
+	</menuItem> -->
+</menu>
+

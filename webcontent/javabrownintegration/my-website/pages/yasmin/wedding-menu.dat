@@ -1,0 +1,15 @@
+<a href="#" class="button1" onclick="loadToggleContent('invitation.dat', 'dyncontent4'); return false;" >
+	Home
+</a> 
+<a href="#" class="button1" onclick="loadToggleContent('bebo-rk.dat', 'dyncontent4'); return false;" >
+	About US
+</a> 
+<a href="#" class="button1" onclick="loadToggleContent('engagement-section.dat', 'dyncontent4'); return false;" >
+   Engagement
+</a> 
+<a href="#" class="button1" onclick="loadToggleContent('bebo-rk.dat', 'dyncontent4'); return false;" >
+   Wedding
+</a> 
+<a href="#" class="button1" onclick="loadToggleContent('video.dat', 'dyncontent4'); return false;" >
+   Babo's  Corner
+</a>

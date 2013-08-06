@@ -1,0 +1,106 @@
+
+
+ <div>
+        <hr style="border: 1px solid #000000;" />
+		        
+		 
+
+ 	 <style>
+		.toggler { width: 700px; height: 500px; position: relative; }
+		#button { padding: .5em 1em; text-decoration: none; }
+		#effect { width: 250px; height: 435px; padding: 0.4em; background: #fff; }
+		#effect1 { width: 700px; height: 435px; padding: 0.4em; background: #fff; }
+		#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+		#effect1 { width: 700px; height: 435px; padding: 0.4em; background: #fff; }
+		#effect1 h3 { margin: 0; padding: 0.4em; text-align: center; }
+		#tabs {width:740px;}
+	</style>
+	
+	<div class="toggler">
+				<div id="web-services-container">
+						<table border="0">
+							<tr>
+								<td>
+												<!--- xxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+													<div id="effect" class="ui-widget-content ui-corner-all">
+														<h3 class="ui-widget-header ui-corner-all">Services</h3>
+														<p>
+																					<div id="accordion">
+																									<h3><a href="#">Service 1</a></h3>
+																									<div>
+																										<p>
+																										Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+																										ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+																										amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+																										odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+																										</p>
+																									</div>
+																									<h3><a href="#">Service 2</a></h3>
+																									<div>
+																										<p>
+																										Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+																										purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+																										velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+																										suscipit faucibus urna.
+																										</p>
+																									</div>
+																									<h3><a href="#">Service 3</a></h3>
+																									<div>
+																										<p>
+																										Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+																										Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+																										ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+																										lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+																										</p>
+																										<ul>
+																											<li>List item one</li>
+																											<li>List item two</li>
+																											<li>List item three</li>
+																										</ul>
+																									</div>
+																									<h3><a href="#">Service 4</a></h3>
+																									<div>
+																										<p>
+																										Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+																										et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+																										faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+																										mauris vel est.
+																										</p>
+																										<p>
+																										Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+																										Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+																										inceptos himenaeos.
+																										</p>
+																									</div>
+																								</div>
+
+																						</div>				 
+																		  <script>
+																			$(function() {
+																			
+																			 
+																			$( "#accordion" ).accordion();
+																				 
+																			});
+																			alert('done');
+																		  </script>
+														</p>
+													</div>												
+												<!--- xxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+								 </td>
+								<td>
+									  	     <div id="effect1" class="ui-widget-content ui-corner-all">
+												<h3 class="ui-widget-header ui-corner-all">Sevices</h3>
+												<p></p>
+											 </div>
+								</td>
+							</tr>
+						</table>
+				</div>
+						  
+     </div>
+				 
+				 
+
+</div>
+		

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://www.javabrown.com/index.php</loc>
+        <lastmod>2013-08-16</lastmod>  <!-- YYYY-MM-DD -->
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- ******projects****** -->
+    <url>
+        <loc>http://www.javabrown.com/projects.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/project-brownservices.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/notepad.html</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- ******services****** -->
+    <url>
+        <loc>http://www.javabrown.com/services.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=aes-cipher</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=des-cipher</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=rabbit-cipher</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=md-5-cryptography</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=sha-1-cryptography</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=sha-2-cryptography</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=encoder_decoder</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=xml-formatter</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=json-formatter</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=css-formatter</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/services.php?ipage=sql-formatter</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/service-definations/online-notepad/notepad.html</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- ******resource****** -->
+    <url>
+        <loc>http://www.javabrown.com/resources.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/resources.php?ipage=jbrownservices</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/resources.php?ipage=brown-capsules</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://www.javabrown.com/resources.php?ipage=brown-capsules</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- ******blog****** -->
+    <url>
+        <loc>http://www.javabrown.com/blog.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- ******about-us****** -->
+    <url>
+        <loc>http://www.javabrown.com/about-us.php</loc>
+        <lastmod>2013-08-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

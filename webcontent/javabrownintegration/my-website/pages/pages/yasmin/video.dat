@@ -1,0 +1,50 @@
+ <br/>								 
+<center> 
+        <div>
+		    <table>
+				    <tr>
+					  	<center> 
+							 <img  width='300' height='200' src="pages/yasmin/images/image5.jpg" alt="image" title="" />
+						</center>
+						<br/><br/>
+					</tr>	
+					<tr>				
+						 <center>
+							 <!--<div class="about shado1w2" style='padding-top:10px'>
+							    <iframe class='shadow2' width="850" height="455" src="http://www.youtube.com/embed/LQgZlBfGhn8" frameborder="0" allowfullscreen></iframe>
+							 </div> -->
+						 </center>
+					</tr>
+					<tr>
+
+<object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F80622574%40N07%2Fshow%2F&page_show_back_url=%2Fphotos%2F80622574%40N07%2F&user_id=80622574@N07&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F80622574%40N07%2Fshow%2F&page_show_back_url=%2Fphotos%2F80622574%40N07%2F&user_id=80622574@N07&jump_to=" width="400" height="300"></embed></object>
+					
+<script src=
+"http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" 
+type="text/javascript"></script>
+
+<fb:comments></fb:comments>
+
+<script type="text/javascript">
+FB.init("248611421914522", "www.javabrown.com/xd_receiver.htm");
+</script>					
+					</tr>
+					
+					<tr>
+					<div class="fb-like" data-href="http://www.javabrown.com" data-send="true" data-width="450" data-show-faces="true"></div>
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=191755937618715";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>					
+					</tr>
+			</table>
+			 	 
+	    </div>
+</center>
+			
+ 
+ 

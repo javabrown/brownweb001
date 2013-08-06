@@ -1,0 +1,185 @@
+	<page-content>
+		  <page-id>page_2</page-id>
+		  <default-page-height>900</default-page-height>
+		  <page-name>Gallery Page</page-name>
+  
+				  
+		  <page-sliders>		  
+		    <page-slider>
+			   <container-id>album_div1</container-id> <!-- component where slider will be placed -->
+			   <slider-type>HIGH-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>920</slider-width>
+			   <slider-height>350</slider-height>
+			   <slider-images>
+			 <image>
+			        <url>pages/images/java-brown.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			 </image>	
+		        
+		          <image>
+			        <url>pages/images/java-brown-1.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			      </image>			   
+		          <image>
+			        <url>pages/images/java-brown-2.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			      </image>
+		          <image>
+			        <url>pages/images/java-brown-3.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>				      
+			   </slider-images>
+			   
+			</page-slider>
+		    <page-slider>
+			   <container-id>hibernate</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/hibernate.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		    <page-slider>
+			   <container-id>webservices</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/restful-web-services-rest.gif</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		    <page-slider>
+			   <container-id>struts</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/struts_icon.png</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+
+		    <page-slider>
+			   <container-id>spring</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/spring_green_on_white_160x90.png</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+			
+		    <page-slider>
+			   <container-id>cycle</container-id> <!-- component where slider will be placed -->
+			   <slider-type>PANORAMA-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>950</slider-width>
+			   <slider-height>500</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>http://images.psxextreme.com/wallpapers/ps3/red_rose_01.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>http://www.backgroundsppt.net/uploads/dreamlike-flowers-backgrounds-wallpapers.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>			
+		  </page-sliders>
+		  
+		  <page-downloads>
+		    <page-download>
+			    <container-id></container-id>
+				<hasDownloads>true</hasDownloads>
+				<download>
+				  <downloadName></downloadName>
+				  <downloadUrl>javaapps/desktop/test.jnlp</downloadUrl>
+				</download>
+			</page-download>
+		  </page-downloads>
+		  
+		  <htm-contents>
+				<htm-content>
+					<container-id>album1_div</container-id>  <!-- component where slider will be placed -->			
+					<caption>Album-1</caption>
+					<htm>&lt;iframe  frameborder=&quot;0&quot; width=&#39;950&#39; height=&#39;650&#39; src=&#39;admin/admin-php/dynamic-album/album1/albumview.html&#39;/&gt;</htm>
+				</htm-content>
+				<htm-content>
+					<container-id>album2_div</container-id>  <!-- component where slider will be placed -->		
+                    <caption>Album-2</caption>					
+					<htm>&lt;iframe  frameborder=&quot;0&quot; width=&#39;950&#39; height=&#39;650&#39; src=&#39;admin/admin-php/dynamic-album/album2/albumview.html&#39;/&gt;</htm>
+				</htm-content>
+				<htm-content>
+					<container-id>album3_div</container-id>  <!-- component where slider will be placed -->	
+                    <caption>Album-3</caption>					
+					<htm>&lt;iframe  frameborder=&quot;0&quot; width=&#39;950&#39; height=&#39;650&#39; src=&#39;admin/admin-php/dynamic-album/album3/albumview.html&#39;/&gt;</htm>
+				</htm-content>
+				<htm-content>
+					<container-id>album4_div</container-id>  <!-- component where slider will be placed -->		
+                    <caption>Album-4</caption>					
+					<htm>&lt;iframe  frameborder=&quot;0&quot; width=&#39;950&#39; height=&#39;650&#39; src=&#39;admin/admin-php/dynamic-album/album4/albumview.html&#39;/&gt;</htm>
+				</htm-content>				
+		  </htm-contents>									 
+			 
+    </page-content>

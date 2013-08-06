@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<contents>
+	<content>
+	  <name>Shrimp</name>
+	  <image>http://www.channel4.com/media/images/Channel4/4Food/recipes/mazda_recipes/king-prawn-bhoona-curry-ahero_A1.jpg</image>
+	  <text>Spicy King Prawn</text>
+	  <width>925</width>
+      <height>350</height>	  
+	</content>
+    <content>
+	  <name>Fish</name>
+	  <image>http://www.indiantoprecipes.com/image/fish_curry.jpg</image>
+	  <text>Hot Fish curry</text>
+	  <width>925</width>
+      <height>350</height>	 
+	</content>
+
+    <content>
+	  <name>Spicy..</name>
+	  <image>http://thumbs.ifood.tv/files/Mirchi%20Bajji.jpg</image>
+	  <text>Mirchi Bajji</text>
+	  <width>925</width>
+      <height>350</height>	 
+	</content>
+	
+    <content>
+	  <name>Chai..</name>
+	  <image>http://farm3.static.flickr.com/2182/2353610341_f2c9a3bae3_o.jpg</image>
+	  <text>Hot Masala Tea</text>
+	  <width>925</width>
+      <height>350</height>	  
+	</content>
+	
+ </contents>
+ 
+ 

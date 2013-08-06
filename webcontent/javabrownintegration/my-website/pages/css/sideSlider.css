@@ -1,0 +1,43 @@
+/* Style and images take for example purposes only from http://www.quicksnapper.com */
+#f1 { margin: 0; font-weight: normal; font-size:14px;}
+
+#sidebar_slider {
+    position:absolute;
+    border-color:red;
+    color: #AFB0B1;
+    background: #0D171A;
+    float:left;
+    margin:0 0 24px;
+    padding:15px 10px 10px;
+    width:214px;
+    top:270px;
+    left:10px;
+    background:transparent;
+}
+
+#sidebar_slider ul {
+  
+    font-size:1.2em;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    background:transparent;
+}
+
+ 
+#sidebar_slider li {
+    height: 50px;
+    overflow: hidden;
+}
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 

@@ -1,0 +1,34 @@
+#content_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#contentwrap {
+    margin-right: 150px;
+    float: left;
+}
+
+#content {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    margin: 5px;
+}
+
+#rightcolumnwrap {
+    width: 150px;
+    margin-left: -150px;
+    float: left;
+}
+
+#rightcolumn {
+    background: #F2F0F1;
+    border-radius: 10px;
+    border: 1px solid #dedcdd;
+    margin: 5px;
+}

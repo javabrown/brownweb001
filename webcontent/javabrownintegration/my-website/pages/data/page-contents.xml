@@ -1,0 +1,64 @@
+	<page-content>
+		  <page-id>page_1</page-id>
+		  <page-name>Web Services Applications</page-name>	  
+		  
+		  <!--<page-images>
+		    <page-image>
+			      <container-id></container-id>
+				  <images>
+						<image>
+						  <url>pages/food-images/sample-1.jpg</url>
+						  <ref>#</ref>
+						</image>
+						<image>
+						  <url>pages/food-images/sample-2.jpg</url>
+						  <ref>#</ref>
+						</image>			
+				  </images>
+		    </page-image>				  
+		  </page-images> -->
+
+		  
+		  <page-sliders>
+		    <page-slider>
+			   <container-id></container-id> <!-- component where slider will be placed -->
+			   <slider-type>3D-SLIDER</slider-type>  <!-- type of slider, avialble sliders: COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER -->
+			   <slider-width>600</slider-width>
+			   <slider-height>500</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/food-images/sample-3.jpg</url>
+			        <ref>#</ref>
+					<title></title>
+			      </image>
+		          <image>
+			        <url>pages/food-images/sample-5.jpg</url>
+			        <ref>#</ref>
+					<title></title>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		  </page-sliders>
+		  
+		  <page-downloads>
+		    <page-download>
+			    <container-id></container-id>
+				<hasDownloads>true</hasDownloads>
+				<download>
+				  <downloadName></downloadName>
+				  <downloadUrl>javaapps/desktop/test.jnlp</downloadUrl>
+				</download>
+			</download>
+		  </page-download>
+		  
+         <page-text-contents>
+			<text-content>
+			    <container-id></container-id>  <!-- component where slider will be placed -->			
+				<text>
+					RajaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is
+				</text>
+			</text-content>
+		 </page-text-contents>
+		 
+    </page-content>

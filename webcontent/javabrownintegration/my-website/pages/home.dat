@@ -1,0 +1,176 @@
+		<div>
+		
+			   <hr style="border: 1px solid #000000;" />
+			   <br/>
+			   <div id="slider2" class='shadow2' style="padding-right:1px;left:5px"></div>			
+
+
+			    <div id='main' class='home-content shadow'>
+				 
+					<h3 class="text1"></h3>
+					<div id='content' class='left '> <br/> 
+						<div class="item shadow2" style='background:black'>
+							<iframe width="605" height="355" src="http://www.youtube.com/embed/SRLU1bJSLVg?rel=0" frameborder="0" allowfullscreen></iframe>
+						<div class="cl">&nbsp;</div>
+						</div>	
+						<br/><br/>
+						<div id='highlight' class='highlight text2'>
+						</div>
+						
+						<div class='projects'>
+						<!-- ***********************************************8 -->
+
+						    <div class="item">
+								  <div class="image left shadow">
+									<div class="carousel main1 shadow">
+										<a class="prev" href="#">
+										</a>
+										<div id="hibernate" class="jCarouselLite1 shadow1" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; height: 117px;">
+										</div>
+										<a class="next" href="#"></a>
+										<div class="clear"></div>
+									</div>
+								   </div>
+								   <div class="text left">
+												  <h4 class='text2'>Hibernate Framework</h4>
+												  <p class='text3'>Hibernate is one of the leading ORM technologies used to develop the persistence layer for the enterprise applications.Hibernate is popular open source object relational mapping tool for Java platform. It provides powerful, ultra-high performance object/relational persistence and query service for Java. Hibernate lets you develop persistent classes.. <a>more..</a></p>
+								   </div>
+								   <div class="cl">&nbsp;</div>
+							</div>
+							
+							<div class="clear"></div>
+							
+						    <div class="item">
+								  <div class="image left shadow">
+									<div class="carousel main1 shadow">
+										<a class="prev" href="#">
+										</a>
+										<div id="webservices" class="jCarouselLite1 shadow1" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; height: 117px;">
+										</div>
+										<a class="next" href="#"></a>
+										<div class="clear"></div>
+									</div>
+								   </div>
+								   <div class="text left">
+												  <h4 class='text2'>Webservices SOAP/RESTful</h4>
+												  <p class='text3'>Web services are Web based applications that use open, XML-based standards and transport protocols to exchange data with clients. Web services are developed using Java Technology APIs and tools provided by an integrated Web Services classes.. <a>more..</a></p>
+								   </div>
+								   <div class="cl">&nbsp;</div>
+							</div>
+							  
+						    <div class="item">
+								  <div class="image left shadow">
+									<div class="carousel main1 shadow">
+										<a class="prev" href="#">
+										</a>
+										<div id="struts" class="jCarouselLite1 shadow1" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; height: 117px;">
+										</div>
+										<a class="next" href="#"></a>
+										<div class="clear"></div>
+									</div>
+								   </div>
+								   <div class="text left">
+												  <h4 class='text2'>Struts Framework</h4>
+												  <p class='text3'>Struts 2 is MVC designed pattern based web application development framework in Java. It is used to develop enterprise web applications.</p>
+								   </div>
+								   <div class="cl">&nbsp;</div>
+							</div>	
+							
+						    <div class="item">
+								  <div class="image left shadow">
+									<div class="carousel main1 shadow">
+										<a class="prev" href="#">
+										</a>
+										<div id="spring" class="jCarouselLite1 shadow1" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; height: 117px;">
+										</div>
+										<a class="next" href="#"></a>
+										<div class="clear"></div>
+									</div>
+								   </div>
+								   <div class="text left">
+												  <h4 class='text2'>Spring Framework</h4>
+												  <p class='text3'>Spring is the most popular application development framework for enterprise Java™. Millions of developers use Spring to create high performing, easily testable, reusable code without any lock-in.</p>
+								   </div>
+								   <div class="cl">&nbsp;</div>
+							</div>	
+							
+						<!-- ************************************************ -->
+						</div>
+						
+					</div>
+					
+					<div id='sidebar' class='right'>
+							
+
+				            <div class='info text1'>
+							  <!--<center><h3>Today's Lab</h3></center> -->
+							    <p id='media-review'>
+							    
+							    
+			  <!-- Facebook Plugin Test BEGIN -->
+<div id="fb-root" class='shadow2'></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=191755937618715";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+ <div class="fb-like-box" data-href="https://www.facebook.com/JavaBrownFoundation" data-width="292" data-show-faces="true" data-stream="true" data-header="true"></div>
+<!-- Facebook Plugin Test BEGIN -->
+
+ 
+									
+									
+									 
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="#">
+										  <img class='list-element-img round' src="http://axis.apache.org/axis2/java/core/images/axis.jpg" alt="Klematis" width="170" height="90" />
+										</a>
+										 <div class="list-element-desc text1">Axis-2  Hello-Word</div>
+										<div class="list-element-desc price-text"></div>
+										<a href="#" class="button1">Read Now</a>
+									</div>
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="#">
+										  <img class='list-element-img round' src="http://www.wittysparks.com/wp-content/uploads/2008/07/swing_gui.gif" alt="Klematis" width="170" height="90" />
+										</a>
+										 <div class="list-element-desc text1">Java Swing-Spring-UI</div>
+										<div class="list-element-desc price-text"></div>
+										<a href="#" class="button1">Read Now</a>
+									</div>	
+									<div class="list-element shadow2 round">
+										<a target="_blank" href="#">
+										  <img class='list-element-img round' src="http://www.wittysparks.com/wp-content/uploads/2008/07/swing_gui.gif" alt="Klematis" width="170" height="90" />
+										</a>
+										 <div class="list-element-desc text1">Java Spring UI</div>
+										<div class="list-element-desc price-text"></div>
+										<a href="#" class="button1">Read Now</a>
+									</div>									
+							  </p>
+ 						  
+						    </div>
+ 						
+	 
+							<div class='advertisement'  >
+					 
+						    </div>
+					</div>
+ 
+					
+					<div class='cl'> </div>
+				</div>		
+				 
+		 
+
+	      <script>
+		     //loadProjectContent('.projects', 'data/project-content.xml'); 
+              loadhighlight($('.highlight'), 0);
+             //loadProjectContent('.projects', 'data/project-content.xml'); 			 
+	         load_level_page_content('data/home-page-content.xml');
+	      </script>
+		 
+	 			
+		</div>
+		

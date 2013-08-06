@@ -1,0 +1,85 @@
+<html>
+
+<link rel="stylesheet" href="pages/css/cms.css" type="text/css" media="all" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  
+  <style>
+        body{
+		  position:relative;
+		}
+		
+		.header{
+		  margin-bottom:18px; 
+		}
+		
+		ul.list li{
+		  float: left;
+		  font-family: Verdana, Arial, Helvetica, sans-serif;
+		  font-size: 12px;
+		  line-height: 1em;
+		  text-indent: 5px;
+		  margin: 2em;
+		  width: 10em;
+		  padding: 5px;
+		  list-style: none;
+		  line-height: 1;
+		  
+		}
+
+		h1 {
+		font-size: 20px;
+		color: #006633;
+		font-weight: bold;
+		} 
+
+		.dot{
+		  border-bottom: 1px dotted #A5AEC5;
+		}
+
+		.topdot{
+		  border-top: 1px dotted #A5AEC5;
+		}
+
+		.wrapper{
+		  clear: left;
+	      padding: 20px;
+		  padding-buttom: 20px;
+		  margin-bottom:48px; 
+		  margin-left:48px; 
+		}
+		.foote1r
+		{  padding: 20px;
+			background:#ccc;
+			text-align: right;
+			padding: 20px;
+			height: 1%;
+		}
+
+  </style>
+
+   <head >
+      <h1>Content Management System</h1> 
+	  <div class='header dot'>
+		  <ul class="list"> 
+			<li class='dot'><a href="#" onclick="$('#main').load('edit-content.php');return;"> Add/Edit Template</a> </li>
+			<li class='dot'><a href="#" onclick="$('#main').load('asset.php');return;"> Asset/Content</a> </li>
+		  </ul>
+	  </div>
+   <head>
+   
+   
+   <body>
+	  
+	   <div id="main" class="wrapper">
+				 
+		</div>
+ 
+   </body>
+   
+   <script> alert('done');</script>
+     
+   <div class="footer topdot">
+            <p>Copyright (c) 2008</p>
+   </div>
+		
+</html>

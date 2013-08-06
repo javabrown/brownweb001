@@ -1,0 +1,122 @@
+	<page-content>
+		  <page-id>page_1</page-id>
+		  <default-page-height>auto</default-page-height>
+		  <page-name>Web Services Applications</page-name>	  
+		  
+		  <!--<page-images>
+		    <page-image>
+			      <container-id></container-id>
+				  <images>
+						<image>
+						  <url>pages/food-images/sample-1.jpg</url>
+						  <ref>#</ref>
+						</image>
+						<image>
+						  <url>pages/food-images/sample-2.jpg</url>
+						  <ref>#</ref>
+						</image>			
+				  </images>
+		    </page-image>				  
+		  </page-images> -->
+
+		  <fixed-menu>   
+				<menuItem>
+				  <id>001</id>	
+				  <name>Home</name>
+				  <ref>https://lh4.googleusercontent.com/-lWIIt2lNrgA/TxTeI-4cJOI/AAAAAAAAApg/lxAxWNjmpXQ/s512/icon.JPG</ref>	  
+				</menuItem>
+				<menuItem>
+				  <id>002</id>		
+				  <name>Services</name>
+				  <ref>https://lh4.googleusercontent.com/-lWIIt2lNrgA/TxTeI-4cJOI/AAAAAAAAApg/lxAxWNjmpXQ/s512/icon.JPG</ref>	  
+				</menuItem>
+		  </fixed-menu>
+		  
+		  <page-sliders>
+		    <page-slider>
+			   <container-id>defaultGaleria</container-id> <!-- component where slider will be placed -->
+			   <slider-type>3D-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>560</slider-width>
+			   <slider-height>420</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>http://www.theroseman.net/images/rose.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			      </image>
+		          <image>
+			        <url>http://imgs.mi9.com/uploads/flower/1053/flower-rainbow_1920x1200_15259.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		    <page-slider>
+			   <container-id>defaultCube1</container-id> <!-- component where slider will be placed -->
+			   <slider-type>HIGH-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>80</slider-width>
+			   <slider-height>50</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/food-images/sample-1.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/food-images/sample-2.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+			
+		    <page-slider>
+			   <container-id>cycle</container-id> <!-- component where slider will be placed -->
+			   <slider-type>PANORAMA-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>950</slider-width>
+			   <slider-height>500</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>http://images.psxextreme.com/wallpapers/ps3/red_rose_01.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>http://www.backgroundsppt.net/uploads/dreamlike-flowers-backgrounds-wallpapers.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>			
+		  </page-sliders>
+		  
+		  <page-downloads>
+		    <page-download>
+			    <container-id></container-id>
+				<hasDownloads>true</hasDownloads>
+				<download>
+				  <downloadName></downloadName>
+				  <downloadUrl>javaapps/desktop/test.jnlp</downloadUrl>
+				</download>
+			</page-download>
+		  </page-downloads>
+		  
+         <page-text-contents>
+			<text-content>
+			    <container-id>sampletextcontent</container-id>  <!-- component where slider will be placed -->			
+				<text>
+					  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is
+				</text>
+			</text-content>
+		 </page-text-contents>
+		 
+    </page-content>

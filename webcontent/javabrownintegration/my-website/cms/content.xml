@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<content-files>   
+    <content-file>
+       <name>pages/data/menu.xml</name>	
+       <desc>Menu Content</desc>
+    </content-file>
+    <content-file>
+       <name>pages/data/home-page-slider.xml</name>	
+       <desc>Menu Content</desc>
+    </content-file>
+    <content-file>
+       <name>content-files.xml</name>	
+       <desc>Content File</desc>
+    </content-file>
+</content-files>

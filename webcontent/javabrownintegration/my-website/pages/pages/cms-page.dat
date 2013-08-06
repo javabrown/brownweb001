@@ -1,0 +1,18 @@
+<div id='cms-content' style="height:auto;">	
+	 			 
+</div>
+
+
+
+							 <script>
+						        function getContent(templateEmbedref, targetId){
+								    $("#"+targetId).html("<div><img src='pages/images/busy-indicator.gif'/></div>");
+								    var ref = "admin/admin-php/" + templateEmbedref;
+									$("#"+targetId).load(ref);			  
+								}
+								
+							    $(document).ready(function(){
+   								    //getContent("pcontent/ProgramDetail.xml", "left");
+   								    getBrownCMSContent("pcontent/ProgramDetail.xml", "cms-content");alert('test done');
+ 								}); 
+							 </script>

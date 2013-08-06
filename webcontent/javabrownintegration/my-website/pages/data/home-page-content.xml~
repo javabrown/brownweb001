@@ -1,0 +1,257 @@
+	<page-content>
+		  <page-id>page_1</page-id>
+		  <default-page-height>1250</default-page-height>
+		  <page-name>Web Services Applications</page-name>
+		  
+	 	  <fixed-menu>   
+				<menuItem>
+				  <id>001</id>	
+				  <name>Java</name>
+				  <ref>http://wqimg.s3.amazonaws.com/ut/ult/Java-Tutor-1028950.jpg</ref>	  
+				</menuItem>
+				<menuItem>
+				  <id>002</id>		
+				  <name>CPlusPlus</name>
+				  <ref>http://www.cyclotrone.com/wp-content/uploads/2011/11/c++-for-windows-7-110x110.gif</ref>	  
+				</menuItem>
+				<menuItem>
+				  <id>003</id>		
+				  <name>XML</name>
+				  <ref>pages/images/xml.jpg</ref>	  
+				</menuItem>	
+				<menuItem>
+				  <id>004</id>		
+				  <name>PHP</name>
+				  <ref>pages/images/php.jpg</ref>	  
+				</menuItem>
+				<menuItem>
+				  <id>005</id>		
+				  <name>db</name>
+				  <ref>http://www.roseindia.net/d2/images/database_icon.gif</ref>	  
+				</menuItem>					
+		  </fixed-menu>
+				  
+		  <page-sliders>		  
+		    <page-slider>
+			   <container-id>slider2</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>920</slider-width>
+			   <slider-height>350</slider-height>
+			   <slider-images>
+			   <image>
+			        <url>http://www.digitaltrends.com/wp-content/uploads/2011/09/800-ipad-white-driving-game.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>
+			   <image>
+			        <url>http://barbeskumpe.com/assets/images/mobile/1.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>				   
+		          <image>
+			        <url>http://www.highsnobiety.com/files/2013/01/rumored-fingerprint-sensor-to-come-with-the-iphone-5s-00.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>
+			   <image>
+			        <url>http://androlineas.com/wp-content/uploads//2012/09/comparativa-samsung-ativ-s-vs.-apple-iphone-51.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>
+			   <image>
+			        <url>http://s3.appleweblog.com/files/2012/03/titulo.jpg</url>                                             
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>
+			   <image>
+			        <url>http://androlineas.com/wp-content/uploads//2012/09/comparativa-samsung-ativ-s-vs.-apple-iphone-51.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			   </image>			   
+		          <!--<image>
+			        <url>pages/images/java-brown-5.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>				   
+		          <image>
+			        <url>pages/images/java-brown-6.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>
+		          <image>
+			        <url>pages/images/java-brown-8.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>			   
+				 <image>
+						<url>pages/images/java-brown.jpg</url>
+						<ref>#</ref>
+						<text1>dasdas</text1>
+						<text2>asdasd</text2>
+				 </image>	
+		        
+		          <image>
+			        <url>pages/images/java-brown-1.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			      </image>			   
+		          <image>
+			        <url>pages/images/java-brown-2.jpg</url>
+			        <ref>#</ref>
+					<text1>dasdas</text1>
+					<text2>asdasd</text2>
+			      </image>
+		          <image>
+			        <url>pages/images/java-brown-3.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>
+		          <image>
+			        <url>pages/images/java-brown-4.jpg</url>
+			        <ref>#</ref>
+					<text1>asd</text1>
+					<text2>adad</text2>
+			      </image>	-->
+			      
+			   </slider-images>
+			   
+			</page-slider>
+		    <page-slider>
+			   <container-id>hibernate</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/hibernate.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		    <page-slider>
+			   <container-id>webservices</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/restful-web-services-rest.gif</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+		    <page-slider>
+			   <container-id>struts</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/struts_icon.png</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+
+		    <page-slider>
+			   <container-id>spring</container-id> <!-- component where slider will be placed -->
+			   <slider-type>CYCLE-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>183</slider-width>
+			   <slider-height>111</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>pages/images/spring_green_on_white_160x90.png</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>pages/images/under-construction.jpg</url>
+			        <ref></ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>
+			
+		    <page-slider>
+			   <container-id>cycle</container-id> <!-- component where slider will be placed -->
+			   <slider-type>PANORAMA-SLIDER</slider-type>  <!-- PANORAMA-SLIDER, CYCLE-SLIDER, COIN-SLIDER, GALERIA-SLIDER, 3D-SLIDER, HIGH-SLIDER -->
+			   <slider-width>950</slider-width>
+			   <slider-height>500</slider-height>
+			   <slider-images>
+			      
+		          <image>
+			        <url>http://images.psxextreme.com/wallpapers/ps3/red_rose_01.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+		          <image>
+			        <url>http://www.backgroundsppt.net/uploads/dreamlike-flowers-backgrounds-wallpapers.jpg</url>
+			        <ref>#</ref>
+					<text1></text1>
+					<text2></text2>
+			      </image>
+			   </slider-images>
+			</page-slider>			
+		  </page-sliders>
+		  
+		  <page-downloads>
+		    <page-download>
+			    <container-id></container-id>
+				<hasDownloads>true</hasDownloads>
+				<download>
+				  <downloadName></downloadName>
+				  <downloadUrl>javaapps/desktop/test.jnlp</downloadUrl>
+				</download>
+			</page-download>
+		  </page-downloads>
+		  
+         <page-text-contents>
+			<text-content>
+			    <container-id>contentliquid</container-id>  <!-- component where slider will be placed -->			
+				<linked-content>admin/admin-php/dynamic-content/tutorial-content.xml</linked-content>
+			</text-content>
+		 </page-text-contents>
+		 
+    </page-content>

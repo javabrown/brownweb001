@@ -1,0 +1,199 @@
+ 
+ 
+   
+   <style>
+			@font-face {
+			  font-family: 'Great Vibes';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Great Vibes'), local('GreatVibes-Regular'), url(http://themes.googleusercontent.com/static/fonts/greatvibes/v1/6q1c0ofG6NKsEhAc2eh-3YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+			}
+
+			@font-face {
+			  font-family: 'Ovo';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Ovo'), url(http://themes.googleusercontent.com/static/fonts/ovo/v4/WqVRExPBh0NGpNgcgzBACQ.woff) format('woff');
+			}
+
+			.clear{clear:both;}
+			 
+
+			a{text-decoration:none;}
+			a:hover{ text-decoration:none;}
+			a.more{ display:block;background:url( ) no-repeat left; padding:0 0 0 20px; margin:15px 0 0 0; float:right;}
+			img.alignleft{ float:left; margin:0 20px 20px 0; border:5px #e6e2d8 solid;}
+			a img{border:none;}
+
+			 
+
+			h1{font-weight: normal;font-size:26px;margin:0;padding:0 0 25px 0;}
+			h2{font-weight: normal;font-size:20px;margin:0;padding:0 0 25px 0;}
+			h3{font-weight: normal;font-size:18px;margin:0;padding:0 0 25px 0;}
+			h4{font-weight: normal;font-size:16px;margin:0;padding:0 0 25px 0;}
+			h5{font-weight: normal;font-size:14px;margin:0;padding:0 0 25px 0;}
+			h6{font-weight: normal;font-size:12px;margin:0;padding:0 0 25px 0;}
+
+			h1, h2, h3, h4{font-family: 'Ovo', serif; color:#53462e;}
+
+			/* Layout
+			/*-----------------------------------------------------------------------------------*/
+			.left_full {padding:40px 40px 0 40px; float:left;}
+			.left14{ width:200px; float:left; padding:40px 0 0 40px;}
+			.left13{ width:280px; float:left; padding:40px 0 0 40px;}
+			.left23{ width:600px; float:left; padding:40px 0 0 40px;}
+			.left12{ width:440px; float:left; padding:40px 0 0 40px;}
+
+
+			/* Main Content Structure
+			/*-----------------------------------------------------------------------------------*/
+			#shadow_bg{ width:100%; background:url(images/shadow_bg.png) no-repeat top center;}
+			#main_container{margin:auto;width:1000px;padding:0; position:relative;}
+			#center_container{margin:auto;width:1000px;padding:0 0 45px 0; position:relative; background-color:#FFFFFF;}
+
+			/* Header Structure
+			/*-----------------------------------------------------------------------------------*/
+			#header{width:100%; height:190px; background:url(images/header_texture.jpg) no-repeat center top;}
+			.title{ text-align:center;margin:0px; padding:55px 0 10px 0px;font-family: 'Great Vibes', cursive;font-size:72px;}
+			.description{font-family: 'Great Vibes', cursive;font-size:24px; margin:auto; display:block; text-align:center;}
+			.swirl_left{ background:url(images/swirl_left.png) no-repeat left; padding:0 0 0 50px;}
+			.swirl_right{ background:url(images/swirl_right.png) no-repeat right; padding:0 50px 0 0px;}
+			 
+			  
+
+			/* Direction Nav */
+			.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+			.flex-direction-nav li a.next { bottom:184px;}
+			.flex-direction-nav li a.prev {bottom:141px;}
+			.flex-direction-nav li a.next:hover {background:url(images/next_a.png) no-repeat center;}
+			.flex-direction-nav li a.prev:hover {background:url(images/prev_a.png) no-repeat center;}
+			.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+			/* Control Nav */
+			.home_title{ width:920px; background:url(images/divider.jpg) no-repeat center bottom; padding:0 0 80px 0; margin:10px auto auto auto;}
+			.home_title h2{ float:left;font-size:24px; padding:5px 0 0 0; margin:0px;font-family: 'Ovo', serif; letter-spacing:-0.5px;}
+			.socials{ float:right;}
+			.socials ul{ display:inline; padding:0px; margin:0px;}
+			.socials ul li{ display:inline; padding:0 0 0 5px; float:left;}
+
+			.topsocials{ display:none; position:absolute;text-align:center; top:300px; width:30%; left:10%; z-index:9999999;background-color:#f6f3ec; border:1px #ede7d8 solid;-moz-border-radius:8px; -webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px; margin:0 15%; padding:10%;}
+			.topsocials ul{ display:inline-block; padding:0px; margin:0px; text-align:center;}
+			.topsocials ul li{ display:inline-block; padding:0 0 0 5px;}
+
+			a.hide_socials{ display:block; clear:both; float:left; width:100%; text-align:center; padding:20px 0 0 0; font-weight:bold;}
+
+			/* About
+			/*-----------------------------------------------------------------------------------*/
+
+			.about{ padding-top:0px; padding-bottom:10px;}
+			.about_pic{ width:147px; height:147px; background:url(images/about_pic_bg.jpg) no-repeat center; float:left;}
+			.about_pic img{ width:135px; height:135px;border-radius:70px;-moz-border-radius:70px;-webkit-border-radius:70px;-khtml-border-radius:70px;border-radius:70px; margin:6px 0 0 6px;}
+			.about_right{ width:270px; float:left; padding:0 0 0 20px;}
+			.about_right h2{font-family: 'Great Vibes', cursive;font-size:30px; padding:0 0 10px 0; margin:0px;}
+			a.more_about{ width:103px; height:41px;  text-align:center; line-height:41px; float:right; display:block; margin:15px 0 0 0;}
+				
+
+			.tweet{ background-color:#eeece6;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;border-radius:10px; padding:10px; margin:0 40px 0 0; border:1px #e4e1d7 solid;}
+			.tweet ul, .tweet ul li{ padding:0px; margin:0px; list-style:none;line-height:20px; font-style:italic;}
+			.tweet ul li a{ font-weight:bold;}
+			img.tweet_icon{ padding:0 0 0 20px; position:relative; top:-1px;}   
+   </style>
+   
+   
+ 
+							<div id="center_container">
+							
+							   <div id="header">
+								  <div class="title">Yasmin &amp; Firoz</div>
+								  <div class="description"><span class="swirl_left"><span class="swirl_right">25 june 2012</span></span></div>
+							   </div>
+							   
+							   <!-- End of Header-->
+							   <div class="home_title">
+								  <h2>Welcome to Our <span>Wedding Website</span></h2>
+								  <div class="socials">
+									 <ul>
+										<li><a target="_blank" href=""><img src="Marriage_files/rss.png" alt="" title="" /></a></li>
+										<li><a target="_blank" href=""><img src="Marriage_files/twitter.png" alt="" title="" /></a></li>
+										<li><a target="_blank" href=""><img src="Marriage_files/facebook.png" alt="" title="" /></a></li>
+										<li><a target="_blank" href=""><img src="Marriage_files/google.png" alt="" title="" /></a></li>
+										<li><a target="_blank" href=""><img src="Marriage_files/vimeo.png" alt="" title="" /></a></li>
+									 </ul>
+								  </div>
+								  <div class="clear"></div>
+							   </div>
+							   
+							   <div class="content">
+										  <div class="left12 about">
+											 <div class="about_pic"><img src="file:///C:/Apache/htdocs/javabrownintegration/my-website/pages/pages/images/baby.JPG" alt="image" title="" /></div>
+											 <div class="about_right">
+												<h2>About Sarah</h2>
+												<p>Lorem ipsum  dolor sit amet, 
+												   consectetur adi pisi cing elit, sed do eiusmod tempor exercitationem ut 
+												   labore et dolore magna aliqua. Ut enim ad consequatur quis nostrud 
+												   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...<strong><a href="http://famousthemes.com/marriage-wordpress/asdas" class="more_about">read more</a></strong>
+												</p>
+											 </div>
+										  </div>
+										  <div class="left12 about">
+											 <div class="about_pic"><img src="http://localhost/javabrownintegration/my-website/pages/pages/images/rk.jpg" alt="image" title="" /></div>
+											 <div class="about_right">
+												<h2>About Michael</h2>
+												<p>Ut enim ad consequatur quis nos
+												   trud exercit ation ullamco laboris nisi ut aliquip ex ea commodo 
+												   consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+												   do eiusmod tempor. ...<strong><a href="http://famousthemes.com/marriage-wordpress/asd" class="more_about">read more</a></strong>
+												</p>
+											 </div>
+										  </div>
+										  <div class="clear"></div>
+								   
+										
+										  <div class="left13 fdivider">
+											 <div class="twitter_widget">
+												<h2>Latest Tweets</h2>
+												<div class="tweet">
+												   <ul class="tweet_list">
+													  <li class="tweet_first tweet_odd"><span class="tweet_time"><a href="http://twitter.com/FamousThemes/status/226201544759058432" title="view tweet on twitter">about a day ago</a></span> <span class="tweet_join">we were checking out</span> <span class="tweet_text">Shot on the beach on @<a href="http://twitter.com/dribbble">dribbble</a>: <a href="http://drbl.in/eHZq">drbl.in/eHZq</a></span></li>
+												   </ul>
+												</div>
+												<img src="Marriage_files/icon_tweets.gif" alt="" title="" class="tweet_icon" />   
+											 </div>
+										  </div>
+										  <div class="left13 fdivider">
+											 <div class="widget-categories">
+												<h2>From the Blog</h2>
+												<div class="widget_post">
+												   <a href="http://famousthemes.com/marriage-wordpress/?p=1">
+												   <img src="Marriage_files/timthumb_003.jpg" alt="" class="post_thumb_small" />
+												   </a>                         
+												   <h3><a href="http://famousthemes.com/marriage-wordpress/?p=1" rel="bookmark" title="Nemo enim ipsam voluptatem quia voluptas sit">Nemo enim ipsam voluptatem quia voluptas sit</a></h3>
+												   <p>
+													  Lorem ipsum dolor sit amet, consectetur adipisicing ...
+												   </p>
+												</div>
+												<div class="widget_post">
+												   <a href="http://famousthemes.com/marriage-wordpress/?p=7">
+												   <img src="Marriage_files/timthumb_003.jpg" alt="" class="post_thumb_small" />
+												   </a>
+												   <h3><a href="http://famousthemes.com/marriage-wordpress/?p=7" rel="bookmark" title="Love is composed of a single soul">Love is composed of a single soul</a></h3>
+												   <p>
+													  Lorem ipsum dolor sit amet, consectetur adipisicing ...
+												   </p>
+												</div>
+											 </div>
+										  </div>
+										  <div class="left13">
+											 <h2>Say Hello!</h2>
+											 <div class="textwidget"><strong>Email:</strong> wedding@email.com<br />
+												<strong>Phone:</strong>  234 234 / 0678
+												<br /><br />
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Consectetur <a href="#">adipisicing elit</a>, eiusmod sed do adipisicing 
+											 </div>
+										  </div>
+							    </div>
+								
+							   <div class="clear"></div>
+							   
+							</div>
+ 

@@ -1,0 +1,31 @@
+	<div>
+        <hr style="border: 1px solid #000000;" />		
+        <div class='carousel main'>
+            <a href='#' class='prev'></a>
+            <div class='jCarouselLite'>
+                <ul> 
+                    <li>
+					  <a href='http://newyork.timeout.com/restaurants-bars/restaurants/125456/neerob'>
+					   <img src='http://www.neerob.com/_/rsrc/1318221453841/Home/time_out_new_york.gif' alt=''  left='10' width='250' height='218'/>
+					  </a>
+					</li>
+                    <li>
+					  <a href='http://www.nytimes.com/2011/10/05/dining/reviews/neerob-in-the-bronx-nyc-restaurant-review.html'>
+					   <img src='http://www.ethnic-spicy-food-and-more.com/images/jamaicanshrimp.jpg' alt='' left='10' width='250' height='218'/>
+					  </a>
+					</li>					
+                </ul>
+            </div>
+            <a href='#' class='next'></a>
+            <div class='clear'></div>   
+        </div> 
+		
+		<script>
+		$('.jCarouselLite').jCarouselLite({
+			auto: 800,
+			speed: 1000,
+			vertical: false,
+			visible: 1
+		});
+		</script>
+	</div>
